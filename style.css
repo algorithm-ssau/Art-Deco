@@ -27,6 +27,7 @@ header {
     background-color:darkslategray;
     background-image: url("img/back.jpg");
     background-attachment: fixed;
+    background-position:center;
     color: white;
     padding-bottom: 100px;
 }
@@ -102,4 +103,13 @@ header {
     text-align: center;
     font-weight: 400;
     font-family: 'Forum', cursive;
+}
+
+
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3e;
 }
