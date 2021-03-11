@@ -91,9 +91,15 @@ header {
 
 .header-nav a, .footer-nav a {
     color: white;
+    opacity: 70%;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Century Gothic', serif;
+}
+
+.header-nav a:hover {
+    opacity: 100%;
+    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;
 }
 
 .header-text {
