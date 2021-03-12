@@ -136,6 +136,10 @@ footer {
     padding: 15px 20px 0 0;
 }
 
+.footer-nav a:hover {
+    opacity: 100%;
+}
+
 .footer-top {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
@@ -144,7 +148,7 @@ footer {
 .footer-bottom {
     font-family: 'Century Gothic', serif;
     font-size: 14px;
-    opacity: 50%;
+    color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     padding-bottom: 0;
     margin: 0;
@@ -161,15 +165,27 @@ footer {
 }
 
 .middle-el {
-    display:inline-block;
-    height:100%;
-    width:0px;
-    overflow:hidden;
-    vertical-align:middle;
+    display: inline-block;
+    height: 100%;
+    width: 0px;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
-.footer-right a, span {
-    vertical-align: middle;
+.inst-text, .inst-icon {
+    display: inline-block;
+}
+
+.footer-right img, span {
+    vertical-align: middle;    
+}
+
+.footer-right img {
+    opacity: 50%;
+}
+
+.footer-right img:hover {
+    opacity:100%;
 }
 
 .copyright {
