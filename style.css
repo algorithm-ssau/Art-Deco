@@ -23,6 +23,7 @@ body {
     clear: both;
 }
 
+/*HEADER------------------------------------------------*/
 header {
     background-color:darkslategray;
     background-image: url("img/back.jpg");
@@ -107,13 +108,37 @@ header {
     padding: 0;
     font-size: 86px;
     text-align: center;
+	text-transform: uppercase;
     font-weight: 400;
     font-family: 'Forum', cursive;
 }
 
+/*MAIN------------------------------------------------*/
+main {
+    background-color:#3B3B3E;
+    background-position:center;
+    color: white;
+}
+.about-container{
+	background-color: white;
+	margin-left: 300px;
+	margin-right: 100px;
+	
+}
+.about{
+	display: block;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', regular;
+    line-height: 55px;
+    text-decoration: none;
+    color: black;
+
+    margin: 0px;
+    padding: 20px 20px 20px 20px;
+}
 
 
-
+/*FOOTER------------------------------------------------*/
 footer {
     margin: 0;
     padding: 30px 0 10px 0px;
