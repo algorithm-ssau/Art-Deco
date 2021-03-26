@@ -30,7 +30,7 @@ header {
     background-attachment: fixed;
     background-position:center;
     color: white;
-    padding-bottom: 550px;
+    height: 100vh;
 }
 
 .header-logo, .footer-logo {
@@ -74,7 +74,7 @@ header {
     box-sizing: border-box;
     float: right;
     width: 85%;
-    border-bottom: 1px solid white;   
+    border-bottom: 1px solid white;
 }
 
 .header-nav-container, .footer-nav-container {
@@ -104,11 +104,10 @@ header {
 }
 
 .header-text {
-    margin-top: 350px;
     padding: 0;
-    font-size: 96px;
+    margin-top: 25vh;
+    font-size: 86px;
     text-align: center;
-	text-transform: uppercase;
     font-weight: 400;
     font-family: 'Forum', cursive;
 }
