@@ -147,7 +147,19 @@ main {
     margin-left:700px;
     line-height: 1.5;
     text-align: left ;
+    font-family: 'Century Gothic', serif;
 }
+.box_right{
+    width:400px;
+    height: 400px;
+    padding:0;
+    margin-right:700px;
+    line-height: 1.5;
+    text-align: left ;
+    font-family: 'Century Gothic', serif;
+}
+
+
 
 /*FOOTER------------------------------------------------*/
 footer {
