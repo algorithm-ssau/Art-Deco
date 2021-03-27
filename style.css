@@ -2,7 +2,9 @@
     font-family: "Century Gothic";
     src: url(fonts/GOTHIC.TTF);
 }
-
+* {
+    box-sizing: border-box;
+}
 body {
     min-width: 1300px;
     margin: 0;
@@ -138,7 +140,14 @@ main {
     margin: 0px;
     padding: 50px 50px 50px 100px;
 }
-
+.box{
+    width:400px;
+    height: 400px;
+    padding:0;
+    margin-left:700px;
+    line-height: 1.5;
+    text-align: left ;
+}
 
 /*FOOTER------------------------------------------------*/
 footer {
