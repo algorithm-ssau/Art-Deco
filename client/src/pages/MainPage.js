@@ -1,9 +1,9 @@
 import React from 'react'
+import '../static/style.css'
 
 export const MainPage = () => {
 	return(
 		<>
-  <link rel="stylesheet" href="../static/style.css"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
   <meta charSet="utf-8" />
@@ -14,17 +14,17 @@ export const MainPage = () => {
   <header>
     <div className="header-top clearfix">                
       <div className="header-logo">
-        <a href="#">Art Deco</a>
+        <a href="/">Art Deco</a>
       </div>                
       <ul className="header-nav clearfix">
         <div className="header-nav-container">
           <li><a href="/plaster">Декоративная штукатурка</a></li>
-          <li><a href="#">Фрески</a></li>
+          <li><a href="/fresco">Фрески</a></li>
           <li><a href="/paint">Краски</a></li>
           <li><a href="/wallpaper">Обои</a></li>
           <li><a href="/decor">Декор</a></li>
-          <li><a href="#">Наши проекты</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="/project">Наши проекты</a></li>
+          <li><a href="/contact">Контакты</a></li>
         </div>                    
       </ul>
     </div>            
@@ -131,12 +131,12 @@ export const MainPage = () => {
       <ul className="footer-nav clearfix">
         <div className="footer-nav-container">
           <li><a href="/plaster">Декоративная штукатурка</a></li>
-          <li><a href="#">Фрески</a></li>
+          <li><a href="/fresco">Фрески</a></li>
           <li><a href="/paint">Краски</a></li>
           <li><a href="/wallpaper">Обои</a></li>
           <li><a href="/decor">Декор</a></li>
-          <li><a href="#">Наши проекты</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="/project">Наши проекты</a></li>
+          <li><a href="/contact">Контакты</a></li>
         </div>                
       </ul>
     </div>
@@ -147,7 +147,7 @@ export const MainPage = () => {
           e-mail: artdeco63@inbox.ru</p>
       </div>
       <div className="footer-right">
-        <a className="inst-icon" href="#"><img height="40px" src="img/inst1.png" alt="Инстаграм" /></a>
+        <a className="inst-icon" href="https://www.instagram.com/artdeco_63/"></a>
         <span className="inst-text">artdeco_63</span>
         <span className="middle-el" />
       </div>

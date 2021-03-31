@@ -5,6 +5,9 @@ import {DecorPage} from './pages/DecorPage'
 import {PaintPage} from './pages/PaintPage'
 import {WallpaperPage} from './pages/WallpaperPage'
 import {MainPage} from './pages/MainPage'
+import {ContactPage} from './pages/ContactPage'
+import {FrescoPage} from './pages/FrescoPage'
+import {ProjectPage} from './pages/ProjectPage'
 
 export const useRoutes = () => {
 	return (
@@ -23,6 +26,15 @@ export const useRoutes = () => {
 		</Route>
 		<Route path="/wallpaper" exact>
 			<WallpaperPage />
+		</Route>
+		<Route path="/contact" exact>
+			<ContactPage />
+		</Route>
+		<Route path="/fresco" exact>
+			<FrescoPage />
+		</Route>
+		<Route path="/project" exact>
+			<ProjectPage />
 		</Route>
 		<Redirect to='/' />
 	</Switch>
