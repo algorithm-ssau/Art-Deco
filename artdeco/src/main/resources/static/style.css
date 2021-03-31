@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url(fonts/GOTHIC.TTF);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    min-width: 1300px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1480px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*HEADER------------------------------------------------*/
+header {
+    background-color:darkslategray;
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    color: white;
+    height: 100vh;
+}
+
+.header-logo, .footer-logo {
+    margin: 0;
+    padding: 0px 20px 0px 0;
+    box-sizing: border-box;
+    width: 15%;
+    float: left;
+}
+
+.header-logo a, .footer-logo {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Forum', cursive;
+    line-height: 55px;
+    text-decoration: none;
+    color: white;
+
+    margin: 0;
+    padding: 10px 0 0 20px;
+    border-bottom: 1px solid white;
+}
+
+.header-logo::after {
+    display: block;
+    content: '';
+    border-right: 2px solid white;
+    height: 21px;
+    width: 100%;
+    position: relative;
+    top: -21px;
+    left: 9px;
+    transform: skewX(-45deg);
+}
+
+.header-nav, .footer-nav {
+    list-style: none;    
+    margin: 0;
+    padding: 20px 20px 5px 0;
+    box-sizing: border-box;
+    float: right;
+    width: 85%;
+    border-bottom: 1px solid white;
+}
+
+.header-nav-container, .footer-nav-container {
+    float: right;
+}
+
+.header-nav li, .footer-nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+.header-nav li:first-child, .footer-nav li:first-child {
+    margin-left: 0;
+}
+
+.header-nav a, .footer-nav a {
+    color: white;
+    opacity: 70%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Century Gothic', serif;
+}
+
+.header-nav a:hover {
+    opacity: 100%;
+    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;
+}
+
+.header-text {
+    padding: 0;
+    margin-top: 25vh;
+    font-size: 86px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Forum', cursive;
+}
+
+/*MAIN------------------------------------------------*/
+main {
+    background-color:#3B3B3E;
+    background-position:center;
+    color: white;
+}
+.about-container{
+	background-color: white;
+	margin-left: 400px;
+	margin-right: 100px;
+	
+}
+.about{
+	display: block;
+    font-family: Cormorant Garamond;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 61px;
+
+    text-decoration: none;
+    color: black;
+
+    margin: 0px;
+    padding: 50px 50px 50px 100px;
+}
+.box{
+    width:400px;
+    height: 400px;
+    padding:0;
+    margin-left:700px;
+    line-height: 1.5;
+    text-align: left ;
+    font-family: 'Century Gothic', serif;
+}
+.box_right{
+    width:400px;
+    height: 400px;
+    padding:0;
+    margin-right:700px;
+    line-height: 1.5;
+    text-align: left ;
+    font-family: 'Century Gothic', serif;
+}
+
+
+
+/*FOOTER------------------------------------------------*/
+footer {
+    margin: 0;
+    padding: 30px 0 10px 0px;
+    background-color: #3b3b3e;
+    color: white;
+}
+
+.footer-logo, .footer-nav {
+    border: 0;
+    padding: 0;
+}
+
+.footer-logo {
+    font-size: 35px;
+    line-height: 45px;
+    padding-left: 20px;
+}
+
+.footer-nav {
+    padding: 15px 20px 0 0;
+}
+
+.footer-nav a:hover {
+    opacity: 100%;
+}
+
+.footer-top {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.footer-bottom {
+    font-family: 'Century Gothic', serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.footer-left {
+    float: left;
+    height: 100px;
+}
+
+.footer-right {
+    float: right;
+    height: 100px;
+}
+
+.middle-el {
+    display: inline-block;
+    height: 100%;
+    width: 0px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.inst-text, .inst-icon {
+    display: inline-block;
+}
+
+.footer-right img, span {
+    vertical-align: middle;    
+}
+
+.footer-right img {
+    opacity: 50%;
+}
+
+.footer-right img:hover {
+    opacity:100%;
+}
+
+.copyright {
+    padding: 0;
+    margin: 0;
+    clear: both;
+    text-align: center;
+}
