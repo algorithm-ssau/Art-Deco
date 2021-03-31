@@ -4,7 +4,10 @@
   "description": "Art-Deco project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -22,7 +25,9 @@
   "homepage": "https://github.com/algorithm-ssau/Art-Deco#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.2"
+    "materialize-css": "^1.0.0-rc.2",
+    "mongoose": "^5.12.2",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
