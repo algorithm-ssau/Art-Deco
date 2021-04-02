@@ -3,10 +3,10 @@ package com.example.artdeco;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller
+//@Controller
 public class ArtDecoController {
 
-    @GetMapping("/")
+  //  @GetMapping("/")
     public String mainPage(){
         return "index";
     }

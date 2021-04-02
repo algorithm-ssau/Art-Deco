@@ -7,7 +7,7 @@ function App() {
 	const routes = useRoutes()
 	return (
 		<Router>
-			<div className="container">
+			<div>
 				{routes}
 			</div>
 		</Router>

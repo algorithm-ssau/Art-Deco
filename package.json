@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/algorithm-ssau/Art-Deco#readme",
   "dependencies": {
+    "config": "^3.3.6",
     "express": "^4.17.1",
     "materialize-css": "^1.0.0-rc.2",
     "mongoose": "^5.12.2",
+    "react-materialize": "^3.9.8",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
