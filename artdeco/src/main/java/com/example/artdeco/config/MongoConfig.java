@@ -1,15 +1,11 @@
 package com.example.artdeco.config;
-import com.mongodb.ConnectionString;
-import com.mongodb.MongoClientSettings;
-//import com.mongodb.client.MongoClients;
+import com.mongodb.*;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoClientConfiguration;
-
-//import com.mongodb.client.MongoClient;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
-
-import java.util.Collection;
-import java.util.Collections;
 
 
 @Configuration
@@ -21,19 +17,14 @@ public class MongoConfig extends AbstractMongoClientConfiguration {
         return "artdecodb";
     }
 
-   /* @Override
-    public MongoClient mongoClient() {
-
-        ConnectionString uri = new ConnectionString(
-                "mongodb+srv://ArtDecoUser:ArtDeco123@cluster0.ffhtx.mongodb.net/artdecodb?retryWrites=true&w=majority");
-        MongoClientSettings mongoClientSettings = MongoClientSettings.builder().applyConnectionString(uri).build();
-        return MongoClients.create(mongoClientSettings);
-    }*/
-
     @Override
-    public Collection getMappingBasePackages() {
-        return Collections.singleton("com.example.artdeco");
+    @Bean
+    public MongoClient mongoClient() {
+        ConnectionString connectionString = new ConnectionString("mongodb+srv://ArtDecoUser:ArtDeco123@cluster0.ffhtx.mongodb.net");
+        MongoClientSettings mongoClientSettings = MongoClientSettings.builder()
+                .applyConnectionString(connectionString)
+                .build();
+        return MongoClients.create(mongoClientSettings);
     }
-
 
 }
