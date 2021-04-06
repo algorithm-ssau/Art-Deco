@@ -1,0 +1,4 @@
+{
+	port: 5000,
+	mongoUri: "mongodb+srv://ArtDecoUser:ArtDeco123@cluster0.ffhtx.mongodb.net/artdecodb?retryWrites=true&w=majority"
+}
