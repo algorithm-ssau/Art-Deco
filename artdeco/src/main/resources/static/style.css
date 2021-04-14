@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    min-width: 1300px;
+    min-width: 100%;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 1480px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@ header {
 
 .header-logo, .footer-logo {
     margin: 0;
-    padding: 0px 20px 0px 0;
+    padding: 0% 1.07% 0% 0;
     box-sizing: border-box;
     width: 15%;
     float: left;
@@ -45,7 +45,7 @@ header {
 
 .header-logo a, .footer-logo {
     display: block;
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 400;
     font-family: 'Forum', cursive;
     line-height: 55px;
@@ -222,6 +222,11 @@ footer {
 
 .inst-text, .inst-icon {
     display: inline-block;
+}
+
+.inst-icon {
+	height: 40px;
+	content: url("img/inst1.png");
 }
 
 .footer-right img, span {
