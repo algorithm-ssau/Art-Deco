@@ -65,7 +65,7 @@ class Product extends React.Component{
         return (
             <tr>
                 <td>{this.props.product.name}</td>
-                <td>{this.props.product.imgPath}</td>
+                <td><img src={`data:${this.props.product.contentType};base64, ${this.props.product.image.data}`} width="200" height="200" /></td>
                 <td>{this.props.product.price}</td>
             </tr>
         )

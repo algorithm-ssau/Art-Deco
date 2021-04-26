@@ -2155,7 +2155,11 @@ var Product = /*#__PURE__*/function (_React$Component2) {
   _createClass(Product, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, this.props.product.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, this.props.product.imgPath), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, this.props.product.price));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("tr", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, this.props.product.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        src: "data:".concat(this.props.product.contentType, ";base64, ").concat(this.props.product.image.data),
+        width: "200",
+        height: "200"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, this.props.product.price));
     }
   }]);
 
