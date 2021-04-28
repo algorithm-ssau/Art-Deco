@@ -27,7 +27,7 @@ public class UploadData implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        repository.deleteAll();
+        /*repository.deleteAll();
 
         // save some products
         try {
@@ -39,7 +39,7 @@ public class UploadData implements CommandLineRunner {
             repository.save(new Product(ProductType.valueOf("WALLPAPER"), "С животными", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/parallax2.jpg"))), "image/jpeg"));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
         /*repository.save(new Product(ProductType.valueOf("PLASTER"), "Мраморный эффект", 130.0, "..\\img\\marbre.png"));
         repository.save(new Product(ProductType.valueOf("FRESCO"), "Геометрический узор", 1200.0, "..\\img\\geom.png"));
         repository.save(new Product(ProductType.valueOf("DECOR"), "Балясина", 200.0, "..\\img\\balac.png"));
