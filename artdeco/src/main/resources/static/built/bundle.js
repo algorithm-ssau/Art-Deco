@@ -2607,7 +2607,45 @@ var PlasterPage = /*#__PURE__*/function (_Component) {
   _createClass(PlasterPage, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
+        href: "https://fonts.googleapis.com/css2?family=Forum&display=swap",
+        rel: "stylesheet"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
+        charSet: "utf-8"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
+        name: "keywords",
+        content: "\u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430, \u0444\u0440\u0435\u0441\u043A\u0430, \u043A\u0440\u0430\u0441\u043A\u0430,\r \u043E\u0431\u043E\u0438, \u0434\u0435\u043A\u043E\u0440, \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439, \u0440\u0435\u043C\u043E\u043D\u0442"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
+        name: "description",
+        content: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, " Art Deco "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "header-top clearfix"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "header-logo"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+        href: "/"
+      }, "Art Deco")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+        className: "header-nav clearfix"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "header-nav-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/plaster'
+      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/fresco'
+      }, "\u0424\u0440\u0435\u0441\u043A\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/paint'
+      }, "\u041A\u0440\u0430\u0441\u043A\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/wallpaper'
+      }, "\u041E\u0431\u043E\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/decor'
+      }, "\u0414\u0435\u043A\u043E\u0440"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/project'
+      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(Link, {
+        to: '/contact'
+      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0428\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
         products: this.products
