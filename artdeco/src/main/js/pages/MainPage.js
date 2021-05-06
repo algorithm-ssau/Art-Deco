@@ -3,6 +3,7 @@ import '../../resources/static/style.css'
 import {Link} from 'react-router-dom';
 
 export const MainPage = () => {
+
 	return(
 		<>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
