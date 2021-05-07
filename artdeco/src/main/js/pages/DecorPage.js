@@ -39,6 +39,8 @@ export class DecorPage extends Component{
                     </div>
                   </ul>
                 </div>
+                <p className="header-text">Уникальные покрытия.
+                  <br />Уникальные решения</p>
               </header>
 				<div className="container">
 					<h1>Декор</h1>
