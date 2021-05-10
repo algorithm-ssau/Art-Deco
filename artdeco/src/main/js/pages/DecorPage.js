@@ -42,10 +42,8 @@ export class DecorPage extends Component{
                 <p className="header-text">Уникальные покрытия.
                   <br />Уникальные решения</p>
               </header>
-<<<<<<< Updated upstream
-				<div className="container">
-					<h1>Декор</h1>
-=======
+              
+
 				<div className="box">
 				<p>
 				Чтобы придать интерьеру законченный вид,широко используется архитектурный декор. Известно, что в классическом дизайне без декора
@@ -53,7 +51,7 @@ export class DecorPage extends Component{
 				направлениях декор используется довольно часто. Грамотно подобранные декоративные изделия без лишнего пафоса
 				сделают акценты на преимуществах помещения, подчеркнут уникальность интерьера и скроют недостатки планировки.
 				</p>
->>>>>>> Stashed changes
+
 				</div>
 				<div className="box_right">
                 				<p>
@@ -66,6 +64,36 @@ export class DecorPage extends Component{
                 				</div>
 
 				<ProductList products={this.products}/>
+
+				<footer>
+                    <div className="footer-top clearfix">
+                      <a href="#" className="footer-logo">Art Deco</a>
+                      <ul className="footer-nav clearfix">
+                        <div className="footer-nav-container">
+                          <li><a href="/plaster">Декоративная штукатурка</a></li>
+                          <li><a href="/fresco">Фрески</a></li>
+                          <li><a href="/paint">Краски</a></li>
+                          <li><a href="/wallpaper">Обои</a></li>
+                          <li><a href="/decor">Декор</a></li>
+                          <li><a href="/project">Наши проекты</a></li>
+                          <li><a href="/contact">Контакты</a></li>
+                        </div>
+                      </ul>
+                    </div>
+                    <div className="footer-bottom clearfix">
+                      <div className="footer-left">
+                        <p className="address">г. Самара, ул.Ново-Садовая, д. 163</p>
+                        <p className="contacts">тел. +7 (846) 248-08-78<br />
+                          e-mail: artdeco63@inbox.ru</p>
+                      </div>
+                      <div className="footer-right">
+                        <a className="inst-icon" href="https://www.instagram.com/artdeco_63/"></a>
+                        <span className="inst-text">artdeco_63</span>
+                        <span className="middle-el" />
+                      </div>
+                      <p className="copyright">© 2021 Art Deco</p>
+                    </div>
+                  </footer>
 			</>
 		)
 	}
