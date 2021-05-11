@@ -149,6 +149,11 @@ main {
     text-align: left ;
     font-family: 'Century Gothic', serif;
 }
+.text{
+    line-height: 1.5;
+    text-align: left ;
+    font-family: 'Century Gothic', serif;
+}
 .box_right{
     width:400px;
     height: 400px;
