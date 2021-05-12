@@ -2193,6 +2193,7 @@ var ContactPage = function ContactPage() {
 /*!****************************************!*\
   !*** ./src/main/js/pages/DecorPage.js ***!
   \****************************************/
+<<<<<<< Updated upstream
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2256,6 +2257,11 @@ var DecorPage = /*#__PURE__*/function (_Component) {
 
   return DecorPage;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
+=======
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\src\\main\\js\\pages\\DecorPage.js: Unexpected token (47:1)\n\n\u001b[0m \u001b[90m 45 |\u001b[39m               \u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 47 |\u001b[39m \u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mUpdated\u001b[39m upstream\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"box\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 50 |\u001b[39m \t\t\t\t\u001b[33mЧтобы\u001b[39m придать интерьеру законченный вид\u001b[33m,\u001b[39mшироко используется архитектурный декор\u001b[33m.\u001b[39m \u001b[33mИзвестно\u001b[39m\u001b[33m,\u001b[39m что в классическом дизайне без декора\u001b[0m\n    at Object._raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.unexpected (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:9735:16)\n    at Object.jsxParseIdentifier (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4947:12)\n    at Object.jsxParseNamespacedName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4957:23)\n    at Object.jsxParseElementName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4968:21)\n    at Object.jsxParseOpeningElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5055:22)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5088:33)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)");
+>>>>>>> Stashed changes
 
 /***/ }),
 
