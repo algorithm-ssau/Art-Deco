@@ -2193,75 +2193,9 @@ var ContactPage = function ContactPage() {
 /*!****************************************!*\
   !*** ./src/main/js/pages/DecorPage.js ***!
   \****************************************/
-<<<<<<< Updated upstream
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "DecorPage": () => (/* binding */ DecorPage)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var materialize_css_dist_css_materialize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! materialize-css/dist/css/materialize.css */ "./node_modules/materialize-css/dist/css/materialize.css");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app.js");
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-
-
-
-var DecorPage = /*#__PURE__*/function (_Component) {
-  _inherits(DecorPage, _Component);
-
-  var _super = _createSuper(DecorPage);
-
-  function DecorPage(props) {
-    var _this;
-
-    _classCallCheck(this, DecorPage);
-
-    _this = _super.call(this, props);
-    _this.products = props.products;
-    return _this;
-  }
-
-  _createClass(DecorPage, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
-        products: this.products
-      }));
-    }
-  }]);
-
-  return DecorPage;
-}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
-=======
 /***/ (() => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\src\\main\\js\\pages\\DecorPage.js: Unexpected token (47:1)\n\n\u001b[0m \u001b[90m 45 |\u001b[39m               \u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 47 |\u001b[39m \u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mUpdated\u001b[39m upstream\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"box\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 50 |\u001b[39m \t\t\t\t\u001b[33mЧтобы\u001b[39m придать интерьеру законченный вид\u001b[33m,\u001b[39mшироко используется архитектурный декор\u001b[33m.\u001b[39m \u001b[33mИзвестно\u001b[39m\u001b[33m,\u001b[39m что в классическом дизайне без декора\u001b[0m\n    at Object._raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.unexpected (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:9735:16)\n    at Object.jsxParseIdentifier (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4947:12)\n    at Object.jsxParseNamespacedName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4957:23)\n    at Object.jsxParseElementName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4968:21)\n    at Object.jsxParseOpeningElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5055:22)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5088:33)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)");
->>>>>>> Stashed changes
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\src\\main\\js\\pages\\DecorPage.js: Unexpected token (15:1)\n\n\u001b[0m \u001b[90m 13 |\u001b[39m \t\t\u001b[36mreturn\u001b[39m (\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m \u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mUpdated\u001b[39m upstream\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m \t\t\t\t\u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"container\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m \t\t\t\t\t\u001b[33m<\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[33mДекор\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m \u001b[33m===\u001b[39m\u001b[33m===\u001b[39m\u001b[33m=\u001b[39m\u001b[0m\n    at Object._raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.unexpected (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:9735:16)\n    at Object.jsxParseIdentifier (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4947:12)\n    at Object.jsxParseNamespacedName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4957:23)\n    at Object.jsxParseElementName (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:4968:21)\n    at Object.jsxParseOpeningElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5055:22)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5088:33)\n    at Object.jsxParseElementAt (D:\\sourse\\ART-DECO\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)");
 
 /***/ }),
 

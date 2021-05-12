@@ -9,7 +9,11 @@
         <module name="artdeco" />
       </profile>
     </annotationProcessing>
+<<<<<<< Updated upstream
     <bytecodeTargetLevel target="15">
+=======
+    <bytecodeTargetLevel>
+>>>>>>> Stashed changes
       <module name="artdeco" target="11" />
     </bytecodeTargetLevel>
   </component>
