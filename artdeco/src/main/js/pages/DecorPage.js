@@ -12,10 +12,7 @@ export class DecorPage extends Component{
 	render() {
 		return (
 			<>
-<<<<<<< Updated upstream
-				<div className="container">
-					<h1>Декор</h1>
-=======
+
 			 <link rel="preconnect" href="https://fonts.gstatic.com" />
               <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
               <meta charSet="utf-8" />
@@ -54,7 +51,6 @@ export class DecorPage extends Component{
 				направлениях декор используется довольно часто. Грамотно подобранные декоративные изделия без лишнего пафоса
 				сделают акценты на преимуществах помещения, подчеркнут уникальность интерьера и скроют недостатки планировки.</td>
 
->>>>>>> Stashed changes
 				</div>
 
 				<ProductList products={this.products}/>
