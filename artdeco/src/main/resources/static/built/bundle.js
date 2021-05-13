@@ -2675,12 +2675,9 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
- //import 'materialize-css'
 
-/*import img from "../../resources/static/img/parallax4.jpg"
-import img2 from "../../resources/static/img/parallax3.jpg"*/
 
- //import {Parallax} from "react-parallax";
+
 
 
 
