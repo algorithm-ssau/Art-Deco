@@ -67,6 +67,13 @@ export class DecorPage extends Component{
 
 				<ProductList products={this.products}/>
 
+				<div className="text">
+				<p>Предоставляемые нами декоративные элементы отличаются выдающейся белизной,
+				четким рисунком, высокой прочностью и уникальной влагостойкостью. Они легко монтируются и
+				готовы к покраске в любой цвет. Мы предлагаем вам декор как из гипса, так и из пенополиуретана.
+				 Будем рады помочь вам с выбором!</p>
+				</div>
+
 				<footer>
                     <div className="footer-top clearfix">
                       <a href="#" className="footer-logo">Art Deco</a>
