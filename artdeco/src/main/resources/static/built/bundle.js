@@ -2174,18 +2174,9 @@ react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/react__WEBPACK_IMPOR
 /*!******************************************!*\
   !*** ./src/main/js/pages/ContactPage.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ContactPage": () => (/* binding */ ContactPage)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var ContactPage = function ContactPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041D\u0430\u0448\u0438 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"));
-};
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\src\\main\\js\\pages\\ContactPage.js: JSX value should be either an expression or a quoted JSX text (8:261)\n\n\u001b[0m \u001b[90m  6 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[33mНаши\u001b[39m контакты\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33mscript\u001b[39m type\u001b[33m=\u001b[39m\u001b[32m\"text/javascript\"\u001b[39m charset\u001b[33m=\u001b[39m\u001b[32m\"utf-8\"\u001b[39m \u001b[36masync\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A733571b672e96fc1a54598bcdfe35f1d89a32fbd9717a1b8ac1d1b9a00399e01&amp\"\u001b[39m width\u001b[33m=\u001b[39m\u001b[32m\"483&amp\"\u001b[39m height\u001b[33m=\u001b[39m\u001b[32m\"384&amp\"\u001b[39m lang\u001b[33m=\u001b[39m\u001b[32m\"ru_RU&amp\"\u001b[39m scroll\u001b[33m=\u001b[39m\u001b[36mtrue\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mscript\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \t\t\t                                                                                                                                                                                                                                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m \t\t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mp\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m \t\t\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m \t)\u001b[0m\n    at Object._raise (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.jsxParseAttributeValue (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5004:20)\n    at Object.jsxParseAttribute (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5043:44)\n    at Object.jsxParseOpeningElementAfterName (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5063:28)\n    at Object.jsxParseOpeningElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5056:17)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5088:33)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)");
 
 /***/ }),
 
@@ -2820,6 +2811,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_WallpaperPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/WallpaperPage */ "./src/main/js/pages/WallpaperPage.js");
 /* harmony import */ var _pages_MainPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/MainPage */ "./src/main/js/pages/MainPage.js");
 /* harmony import */ var _pages_ContactPage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/ContactPage */ "./src/main/js/pages/ContactPage.js");
+/* harmony import */ var _pages_ContactPage__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pages_ContactPage__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _pages_FrescoPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/FrescoPage */ "./src/main/js/pages/FrescoPage.js");
 /* harmony import */ var _pages_ProjectPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/ProjectPage */ "./src/main/js/pages/ProjectPage.js");
 
