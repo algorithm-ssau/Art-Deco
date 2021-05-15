@@ -2232,10 +2232,10 @@ var ContactPage = function ContactPage() {
     className: "header-text"
   }, "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041D\u0430\u0448\u0438 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("script", {
-    charset: "utf-8",
-    async: true,
-    src: "http://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A733571b672e96fc1a54598bcdfe35f1d89a32fbd9717a1b8ac1d1b9a00399e01&width=483&height=384&lang=ru_RU&scroll=true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041D\u0430\u0448\u0438 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("iframe", {
+    src: "https://www.google.com/maps/d/embed?mid=1F_Qrm-aMVdCb0_d2sA55u9iaCz1ENHti",
+    width: "640",
+    height: "480"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "footer-top clearfix"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
