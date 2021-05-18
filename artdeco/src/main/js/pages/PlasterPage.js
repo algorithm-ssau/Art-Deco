@@ -21,17 +21,17 @@ export class PlasterPage extends Component{
 
 			<div class="slider">
                 <div class="item">
-                    <img src="img/parallax1.jpg" alt="Первый слайд">
+                    <img src="img/parallax1.jpg" alt="Первый слайд"/>
                     <div class="slideText">Заголовок слайда 1</div>
                 </div>
 
                 <div class="item">
-                    <img src="img/parallax2.jpg" alt="Второй слайд">
+                    <img src="img/parallax2.jpg" alt="Второй слайд"/>
                     <div class="slideText">Заголовок слайда 2</div>
                 </div>
 
                 <div class="item">
-                    <img src="img/parallax3.jpg" alt="Третий слайд">
+                    <img src="img/parallax3.jpg" alt="Третий слайд"/>
                     <div class="slideText">Заголовок слайда 3</div>
                 </div>
 
