@@ -40,6 +40,7 @@ export class PaintPage extends Component{
                                         <p className="header-text">Уникальные покрытия.
                                           <br />Уникальные решения</p>
                                       </header>
+                <div className="container">
                                       <div className="text">
                                       <p>Людям, которые любят обновления, стоит обратить внимание на краски.
                                       Они помогут, когда необходимо придать стенам ровный и качественный вид на продолжительный срок.
@@ -57,7 +58,7 @@ export class PaintPage extends Component{
 
 
 				<div className="container">
-					<h1>Краски</h1>
+					<h1>Краски, красочки</h1>
 				</div>
 
 				<ProductList products={this.products}/>
@@ -65,6 +66,7 @@ export class PaintPage extends Component{
 				<p>Мы поможем Вам выбрать идеальную краску с подходящим составом, учитывая все Ваши пожелания и цели!</p>
 				</div>
 
+                </div>
 				<footer>
                                     <div className="footer-top clearfix">
                                       <a href="#" className="footer-logo">Art Deco</a>
