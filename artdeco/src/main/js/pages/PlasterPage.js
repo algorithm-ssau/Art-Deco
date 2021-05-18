@@ -49,24 +49,24 @@ export class PlasterPage extends Component{
 
             /* Функция увеличивает индекс на 1, показывает следующй слайд*/
             function plusSlide() {
-                showSlides(slideIndex += 1);
+                showSlides(slideIndex += 1)
             }
 
             /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
             function minusSlide() {
-                showSlides(slideIndex -= 1);
+                showSlides(slideIndex -= 1)
             }
 
             /* Устанавливает текущий слайд */
             function currentSlide(n) {
-                showSlides(slideIndex = n);
+                showSlides(slideIndex = n)
             }
 
             /* Основная функция слайдера */
             function showSlides(n) {
                 var i;
-                var slides = document.getElementsByClassName("item");
-                var dots = document.getElementsByClassName("slider-dots_item");
+                var slides = document.getElementsByClassName("item")
+                var dots = document.getElementsByClassName("slider-dots_item")
                 if (n > slides.length) {
                   slideIndex = 1
                 }
@@ -74,13 +74,13 @@ export class PlasterPage extends Component{
                     slideIndex = slides.length
                 }
                 for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
+                    slides[i].style.display = "none"
                 }
                 for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
+                    dots[i].className = dots[i].className.replace(" active", "")
                 }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
+                slides[slideIndex - 1].style.display = "block"
+                dots[slideIndex - 1].className += " active"
             }
 				<div className="container">
 					<h1>Штукатурка</h1>
