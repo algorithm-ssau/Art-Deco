@@ -2736,9 +2736,118 @@ var PaintPage = /*#__PURE__*/function (_Component) {
 /*!******************************************!*\
   !*** ./src/main/js/pages/PlasterPage.js ***!
   \******************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\src\\main\\js\\pages\\PlasterPage.js: Expected corresponding JSX closing tag for <img> (24:14)\n\n\u001b[0m \u001b[90m 22 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"column\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m                 \u001b[33m<\u001b[39m\u001b[33mimg\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"img/Photo Art Deco/project/1/1.jpg\"\u001b[39m alt\u001b[33m=\u001b[39m\u001b[32m\"1\"\u001b[39m onclick\u001b[33m=\u001b[39m\u001b[32m\"openImg(this);\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 24 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 25 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33mdiv\u001b[39m className\u001b[33m=\u001b[39m\u001b[32m\"column\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m                 \u001b[33m<\u001b[39m\u001b[33mimg\u001b[39m src\u001b[33m=\u001b[39m\u001b[32m\"img/Photo Art Deco/project/1/2.jpg\"\u001b[39m alt\u001b[33m=\u001b[39m\u001b[32m\"2\"\u001b[39m onclick\u001b[33m=\u001b[39m\u001b[32m\"openImg(this);\"\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m               \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mdiv\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at Object._raise (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Object.raiseWithData (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Object.raise (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5136:16)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)\n    at Object.jsxParseElementAt (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5104:32)\n    at Object.jsxParseElement (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5162:17)\n    at Object.parseExprAtom (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:5169:19)\n    at Object.parseExprSubscripts (C:\\Users\\Татьяна\\Documents\\GitHub\\Art-Deco\\artdeco\\node_modules\\@babel\\parser\\lib\\index.js:10708:23)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "PlasterPage": () => (/* binding */ PlasterPage)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var materialize_css_dist_css_materialize_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! materialize-css/dist/css/materialize.css */ "./node_modules/materialize-css/dist/css/materialize.css");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+
+
+function openImg(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+
+var PlasterPage = /*#__PURE__*/function (_Component) {
+  _inherits(PlasterPage, _Component);
+
+  var _super = _createSuper(PlasterPage);
+
+  function PlasterPage(props) {
+    var _this;
+
+    _classCallCheck(this, PlasterPage);
+
+    _this = _super.call(this, props);
+    _this.products = props.products;
+    return _this;
+  }
+
+  _createClass(PlasterPage, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "row"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "column"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        src: "img/Photo Art Deco/project/1/1.jpg",
+        alt: "1",
+        onclick: "openImg(this);"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "column"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        src: "img/Photo Art Deco/project/1/2.jpg",
+        alt: "2",
+        onclick: "openImg(this);"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "column"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        src: "img/Photo Art Deco/project/1/3.jpg",
+        alt: "3",
+        onclick: "openImg(this);"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "column"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        src: "img/Photo Art Deco/project/1/4.jpg",
+        alt: "4",
+        onclick: "openImg(this);"
+      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "container1"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+        onclick: "this.parentElement.style.display='none'",
+        "class": "closebtn"
+      }, "\xD7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+        id: "expandedImg",
+        style: "width:100%"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        id: "imgtext"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+        className: "container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0428\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+        products: this.products
+      }));
+    }
+  }]);
+
+  return PlasterPage;
+}(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 /***/ }),
 
@@ -2845,7 +2954,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _pages_PlasterPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/PlasterPage */ "./src/main/js/pages/PlasterPage.js");
-/* harmony import */ var _pages_PlasterPage__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pages_PlasterPage__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_DecorPage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/DecorPage */ "./src/main/js/pages/DecorPage.js");
 /* harmony import */ var _pages_PaintPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/PaintPage */ "./src/main/js/pages/PaintPage.js");
 /* harmony import */ var _pages_WallpaperPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/WallpaperPage */ "./src/main/js/pages/WallpaperPage.js");

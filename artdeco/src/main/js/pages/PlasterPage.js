@@ -9,6 +9,13 @@ import '../../resources/static/style.css'
 
 import '../../resources/static/style.css'
 import {Link} from 'react-router-dom';
+function openImg(imgs) {
+                                    var expandImg = document.getElementById("expandedImg");
+                                   var imgText = document.getElementById("imgtext");
+                                   expandImg.src = imgs.src;
+                                   imgText.innerHTML = imgs.alt;
+                                   expandImg.parentElement.style.display = "block";
+                                }
 export class PlasterPage extends Component{
 	constructor(props) {
 		super(props);
@@ -44,13 +51,7 @@ export class PlasterPage extends Component{
 
               <div id="imgtext"></div>
             </div>
-            function openImg(imgs) {
-                                   var expandImg = document.getElementById("expandedImg");
-                                   var imgText = document.getElementById("imgtext");
-                                  expandImg.src = imgs.src;
-                                  imgText.innerHTML = imgs.alt;
-                                  expandImg.parentElement.style.display = "block";
-                                }
+
 
 
 
@@ -63,4 +64,5 @@ export class PlasterPage extends Component{
 			</>
 		)
 	}
+
 }
