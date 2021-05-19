@@ -18,70 +18,47 @@ export class PlasterPage extends Component{
 	render() {
 		return (
 			<>
-
-			<div class="slider">
-                <div class="item">
-                    <img src="img/parallax1.jpg" alt="Первый слайд"/>
-                    <div class="slideText">Заголовок слайда 1</div>
-                </div>
-
-                <div class="item">
-                    <img src="img/parallax2.jpg" alt="Второй слайд"/>
-                    <div class="slideText">Заголовок слайда 2</div>
-                </div>
-
-                <div class="item">
-                    <img src="img/parallax3.jpg" alt="Третий слайд"/>
-                    <div class="slideText">Заголовок слайда 3</div>
-                </div>
-
-                <a class="prev" onclick="minusSlide()">&#10094;</a>
-                <a class="next" onclick="plusSlide()">&#10095;</a>
+			<div className="row">
+              <div className="column">
+                <img src="img/Photo Art Deco/project/1/1.jpg" alt="1" onclick="openImg(this);">
+              </div>
+              <div className="column">
+                <img src="img/Photo Art Deco/project/1/2.jpg" alt="2" onclick="openImg(this);">
+              </div>
+              <div className="column">
+                <img src="img/Photo Art Deco/project/1/3.jpg" alt="3" onclick="openImg(this);">
+              </div>
+              <div className="column">
+                <img src="img/Photo Art Deco/project/1/4.jpg" alt="4" onclick="openImg(this);">
+              </div>
             </div>
 
-            <div class="slider-dots">
-                <span class="slider-dots_item" onclick="currentSlide(1)"></span>
-                <span class="slider-dots_item" onclick="currentSlide(2)"></span>
-                <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+            <!-- The expanding image container -->
+            <div className="container1">
+              <!-- Close the image -->
+              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+              <!-- Expanded image -->
+              <img id="expandedImg" style="width:100%">
+
+              <!-- Image text -->
+              <div id="imgtext"></div>
             </div>
-            var slideIndex = 1;
-            showSlides(slideIndex);
+            <script>function myFunction(imgs) {
+                      // Get the expanded image
+                      var expandImg = document.getElementById("expandedImg");
+                      // Get the image text
+                      var imgText = document.getElementById("imgtext");
+                      // Use the same src in the expanded image as the image being clicked on from the grid
+                      expandImg.src = imgs.src;
+                      // Use the value of the alt attribute of the clickable image as text inside the expanded image
+                      imgText.innerHTML = imgs.alt;
+                      // Show the container element (hidden with CSS)
+                      expandImg.parentElement.style.display = "block";
+                    }
+            </script>
 
-            /* Функция увеличивает индекс на 1, показывает следующй слайд*/
-            function plusSlide() {
-                showSlides(slideIndex += 1)
-            }
 
-            /* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
-            function minusSlide() {
-                showSlides(slideIndex -= 1)
-            }
-
-            /* Устанавливает текущий слайд */
-            function currentSlide(n) {
-                showSlides(slideIndex = n)
-            }
-
-            /* Основная функция слайдера */
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("item")
-                var dots = document.getElementsByClassName("slider-dots_item")
-                if (n > slides.length) {
-                  slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none"
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "")
-                }
-                slides[slideIndex - 1].style.display = "block"
-                dots[slideIndex - 1].className += " active"
-            }
 				<div className="container">
 					<h1>Штукатурка</h1>
 				</div>

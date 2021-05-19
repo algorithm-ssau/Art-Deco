@@ -158,97 +158,52 @@ main {
     text-align: left ;
     font-family: 'Century Gothic', serif;
 }
-.slider{
-    max-width: 90%;
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container1 {
     position: relative;
-    margin: auto;
-    height: 300px;
-    margin-bottom: 15px;
+    display: none;
 }
-/* Картинка мастабируется по отношению к родительскому элементу */
-.slider .item img {
-    object-fit: cover;
-    width: 100%;
-    height: 300px;
-    border: none !important;
-    box-shadow: none !important;
-}
-/* Кнопки вперед и назад */
-.slider .prev, .slider .next {
-    cursor: pointer;
+
+/* Expanding image text */
+#imgtext {
     position: absolute;
-    top: 0;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
+    bottom: 15px;
+    left: 15px;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    font-size: 20px;
 }
-.slider .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-/* При наведении на кнопки добавляем фон кнопок */
-.slider .prev:hover,
-.slider .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-/* Заголовок слайда */
-.slideText {
+
+/* Closable button inside the image */
+.closebtn {
     position: absolute;
-    color: #fff;
+    top: 10px;
+    right: 15px;
+    color: white;
     font-size: 35px;
-    /* Выравнивание текста по горизонтали и по вертикали*/
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    /* Тень*/
-    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
-}
-/* Кружочки */
-.slider-dots {
-    text-align: center;
-}
-.slider-dots_item{
     cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 0 2px;
-    background-color: #ddd;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active,
-.slider-dots_item:hover {
-    background-color: #aaa;
-}
-/* Анимация слайдов */
-.slider .item {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
 }
 
 
