@@ -1983,6 +1983,30 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/main/js/components/Navigation/style.scss":
+/*!******************************************************!*\
+  !*** ./src/main/js/components/Navigation/style.scss ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Navigation/style.scss");
+
+
+var options = {};
+options.insert = "head";
+options.singleton = false;
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./src/main/resources/static/style.css":
 /*!*********************************************!*\
   !*** ./src/main/resources/static/style.css ***!
@@ -2098,9 +2122,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
- //import 'bootstrap/dist/css/bootstrap.min.css';
 
- //import 'materialize-css';
 
 var App = /*#__PURE__*/function (_Component) {
   _inherits(App, _Component);
@@ -2307,8 +2329,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ MainHeader)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.scss */ "./src/main/js/components/MainHeader/style.scss");
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Navigation */ "./src/main/js/components/Navigation/index.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/main/js/components/MainHeader/style.scss");
 
 
 
@@ -2317,67 +2339,58 @@ function MainHeader() {
     className: "header-main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "header-main__container nav-extended"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "header-main__nav nav-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
-    className: "header-main__logo brand-logo left"
-  }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "header-main__list right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/plaster'
-  }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/fresco'
-  }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/paint'
-  }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/wallpaper'
-  }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/decor'
-  }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/project'
-  }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "header-main__item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: '/contact'
-  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "header-main__content nav-content center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "header-main__text nav-title"
-  }, "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F")))) // <header>
-  //     <div className="header-top clearfix">
-  //         <div className="header-logo">
-  //             <a href="/">Art Deco</a>
-  //         </div>
-  //         <ul className="header-nav clearfix">
-  //             <div className="header-nav-container">
-  //                 <Link to={'/plaster'}>Декоративная штукатурка</Link>
-  //                 <Link to={'/fresco'}>Фрески</Link>
-  //                 <Link to={'/paint'}>Краски</Link>
-  //                 <Link to={'/wallpaper'}>Обои</Link>
-  //                 <Link to={'/decor'}>Декор</Link>
-  //                 <Link to={'/project'}>Наши проекты</Link>
-  //                 <Link to={'/contact'}>Контакты</Link>
-  //             </div>
-  //         </ul>
-  //     </div>
-  //     <p className="header-text">Уникальные покрытия.
-  //         <br/>Уникальные решения</p>
-  // </header>
-  ;
+  }, "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F"))));
 }
+
+/***/ }),
+
+/***/ "./src/main/js/components/Navigation/index.js":
+/*!****************************************************!*\
+  !*** ./src/main/js/components/Navigation/index.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Navigation)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/main/js/components/Navigation/style.scss");
+
+
+function Navigation() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    className: "navigation nav-wrapper"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    className: "navigation__logo brand-logo left"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/'
+  }, "Art Deco")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "navigation__list right"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/plaster'
+  }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/fresco'
+  }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/paint'
+  }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/wallpaper'
+  }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/decor'
+  }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/project'
+  }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: '/contact'
+  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))));
+}
+
 
 /***/ }),
 
@@ -3514,7 +3527,34 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_resources_static_img_Photo_Art_Deco_main_main_jpg__WEBPACK_IMPORTED_MODULE_3__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header-main {\n  background: #3b3b3e url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat fixed center;\n  background-size: cover;\n  height: 100vh;\n}\n.header-main .header-main__container {\n  background-color: transparent;\n  box-shadow: none;\n  height: 100%;\n}\n.header-main .header-main__container .header-main__nav {\n  border-bottom: 1px solid white;\n  padding: 0 20px;\n}\n.header-main .header-main__container .header-main__nav .header-main__logo {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item {\n  text-transform: uppercase;\n  opacity: 70%;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item:hover {\n  opacity: 100%;\n  text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\n}\n.header-main .header-main__container .header-main__content {\n  height: 100%;\n}\n.header-main .header-main__container .header-main__content .header-main__text {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 500%;\n  padding: 0;\n  margin-top: 25vh;\n}\n\n/* header {\n/*    background-color:darkslategray;*/\n/*    background-image: url(\"img/back.jpg\");*/\n/*    background-attachment: fixed;*/\n/*    background-position:center;*/\n/*    color: white;*/\n/*    height: 100vh;*/\n/*}*/\n/*.header-logo, .footer-logo {*/\n/*    margin: 0;*/\n/*    padding: 0% 1.07% 0% 0;*/\n/*    box-sizing: border-box;*/\n/*    width: 15%;*/\n/*    float: left;*/\n/*}*/\n/*.header-logo a, .footer-logo {*/\n/*    display: block;*/\n/*    font-size: 300%;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*    line-height: 55px;*/\n/*    text-decoration: none;*/\n/*    color: white;*/\n/*    margin: 0;*/\n/*    padding: 10px 0 0 20px;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-logo::after {*/\n/*    display: block;*/\n/*    content: '';*/\n/*    border-right: 2px solid white;*/\n/*    height: 21px;*/\n/*    width: 100%;*/\n/*    position: relative;*/\n/*    top: -21px;*/\n/*    left: 9px;*/\n/*    transform: skewX(-45deg);*/\n/*}*/\n/*.header-nav, .footer-nav {*/\n/*    list-style: none;    */\n/*    margin: 0;*/\n/*    padding: 20px 20px 5px 0;*/\n/*    box-sizing: border-box;*/\n/*    float: right;*/\n/*    width: 85%;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-nav-container, .footer-nav-container {*/\n/*    float: right;*/\n/*}*/\n/*.header-nav li, .footer-nav li {*/\n/*    float: left;*/\n/*    margin-left: 20px;*/\n/*}*/\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\n/*    margin-left: 0;*/\n/*}*/\n/*.header-nav a, .footer-nav a {*/\n/*    color: white;*/\n/*    opacity: 70%;*/\n/*    text-decoration: none;*/\n/*    text-transform: uppercase;*/\n/*    font-family: 'Century Gothic', serif;*/\n/*}*/\n/*.header-nav a:hover {*/\n/*    opacity: 100%;*/\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\n/*}*/\n/*.header-text {*/\n/*    padding: 0;*/\n/*    margin-top: 25vh;*/\n/*    font-size: 86px;*/\n/*    text-align: center;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*} */", "",{"version":3,"sources":["webpack://./src/main/js/components/MainHeader/style.scss"],"names":[],"mappings":"AAAA;EACE,kFAAA;EACA,sBAAA;EACA,aAAA;AACF;AACE;EACE,6BAAA;EACA,gBAAA;EACA,YAAA;AACJ;AACI;EACE,8BAAA;EACA,eAAA;AACN;AACM;EACE,yCAAA;AACR;AAEQ;EACE,yBAAA;EACA,YAAA;AAAV;AAEU;EACE,aAAA;EACA,gFAAA;AAAZ;AAKI;EACE,YAAA;AAHN;AAKM;EACE,yCAAA;EACA,eAAA;EACA,UAAA;EACA,gBAAA;AAHR;;AASA;sCAAA;AAEA,6CAAA;AACA,oCAAA;AACA,kCAAA;AACA,oBAAA;AACA,qBAAA;AACA,IAAA;AAEA,+BAAA;AACA,iBAAA;AACA,8BAAA;AACA,8BAAA;AACA,kBAAA;AACA,mBAAA;AACA,IAAA;AAEA,iCAAA;AACA,sBAAA;AACA,uBAAA;AACA,wBAAA;AACA,qCAAA;AACA,yBAAA;AACA,6BAAA;AACA,oBAAA;AAEA,iBAAA;AACA,8BAAA;AACA,sCAAA;AACA,IAAA;AAEA,wBAAA;AACA,sBAAA;AACA,mBAAA;AACA,qCAAA;AACA,oBAAA;AACA,mBAAA;AACA,0BAAA;AACA,kBAAA;AACA,iBAAA;AACA,gCAAA;AACA,IAAA;AAEA,6BAAA;AACA,4BAAA;AACA,iBAAA;AACA,gCAAA;AACA,8BAAA;AACA,oBAAA;AACA,kBAAA;AACA,sCAAA;AACA,IAAA;AAEA,iDAAA;AACA,oBAAA;AACA,IAAA;AAEA,mCAAA;AACA,mBAAA;AACA,yBAAA;AACA,IAAA;AAEA,2DAAA;AACA,sBAAA;AACA,IAAA;AAEA,iCAAA;AACA,oBAAA;AACA,oBAAA;AACA,6BAAA;AACA,iCAAA;AACA,4CAAA;AACA,IAAA;AAEA,wBAAA;AACA,qBAAA;AACA,wFAAA;AACA,IAAA;AAEA,iBAAA;AACA,kBAAA;AACA,wBAAA;AACA,uBAAA;AACA,0BAAA;AACA,wBAAA;AACA,qCAAA;AACA,KAAA","sourcesContent":[".header-main {\r\n  background: #3b3b3e url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed center;\r\n  background-size: cover;\r\n  height: 100vh;\r\n\r\n  .header-main__container {\r\n    background-color: transparent;\r\n    box-shadow: none;\r\n    height: 100%;\r\n\r\n    .header-main__nav {\r\n      border-bottom: 1px solid white;\r\n      padding: 0 20px;\r\n\r\n      .header-main__logo {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n      }\r\n      .header-main__list {\r\n        .header-main__item {\r\n          text-transform: uppercase;\r\n          opacity: 70%;\r\n\r\n          &:hover {\r\n            opacity: 100%;\r\n            text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\r\n          }\r\n        }\r\n      }\r\n    }\r\n    .header-main__content {\r\n      height: 100%;\r\n\r\n      .header-main__text {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 500%;\r\n        padding: 0;\r\n        margin-top: 25vh;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n/* header {\r\n/*    background-color:darkslategray;*/\r\n/*    background-image: url(\"img/back.jpg\");*/\r\n/*    background-attachment: fixed;*/\r\n/*    background-position:center;*/\r\n/*    color: white;*/\r\n/*    height: 100vh;*/\r\n/*}*/\r\n\r\n/*.header-logo, .footer-logo {*/\r\n/*    margin: 0;*/\r\n/*    padding: 0% 1.07% 0% 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    width: 15%;*/\r\n/*    float: left;*/\r\n/*}*/\r\n\r\n/*.header-logo a, .footer-logo {*/\r\n/*    display: block;*/\r\n/*    font-size: 300%;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*    line-height: 55px;*/\r\n/*    text-decoration: none;*/\r\n/*    color: white;*/\r\n\r\n/*    margin: 0;*/\r\n/*    padding: 10px 0 0 20px;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-logo::after {*/\r\n/*    display: block;*/\r\n/*    content: '';*/\r\n/*    border-right: 2px solid white;*/\r\n/*    height: 21px;*/\r\n/*    width: 100%;*/\r\n/*    position: relative;*/\r\n/*    top: -21px;*/\r\n/*    left: 9px;*/\r\n/*    transform: skewX(-45deg);*/\r\n/*}*/\r\n\r\n/*.header-nav, .footer-nav {*/\r\n/*    list-style: none;    */\r\n/*    margin: 0;*/\r\n/*    padding: 20px 20px 5px 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    float: right;*/\r\n/*    width: 85%;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-nav-container, .footer-nav-container {*/\r\n/*    float: right;*/\r\n/*}*/\r\n\r\n/*.header-nav li, .footer-nav li {*/\r\n/*    float: left;*/\r\n/*    margin-left: 20px;*/\r\n/*}*/\r\n\r\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\r\n/*    margin-left: 0;*/\r\n/*}*/\r\n\r\n/*.header-nav a, .footer-nav a {*/\r\n/*    color: white;*/\r\n/*    opacity: 70%;*/\r\n/*    text-decoration: none;*/\r\n/*    text-transform: uppercase;*/\r\n/*    font-family: 'Century Gothic', serif;*/\r\n/*}*/\r\n\r\n/*.header-nav a:hover {*/\r\n/*    opacity: 100%;*/\r\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\r\n/*}*/\r\n\r\n/*.header-text {*/\r\n/*    padding: 0;*/\r\n/*    margin-top: 25vh;*/\r\n/*    font-size: 86px;*/\r\n/*    text-align: center;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*} */"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header-main {\n  background: #3b3b3e url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat fixed center;\n  background-size: cover;\n  height: 100vh;\n}\n.header-main .header-main__container {\n  background-color: transparent;\n  box-shadow: none;\n  height: 100%;\n}\n.header-main .header-main__container .header-main__nav {\n  border-bottom: 1px solid white;\n  padding: 0 20px;\n}\n.header-main .header-main__container .header-main__nav .header-main__logo {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 40px;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item {\n  text-transform: uppercase;\n  opacity: 70%;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item:hover {\n  opacity: 100%;\n  text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\n}\n.header-main .header-main__container .header-main__content {\n  height: 100%;\n}\n.header-main .header-main__container .header-main__content .header-main__text {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 500%;\n  padding: 0;\n  margin-top: 25vh;\n}\n\n/* header {\n/*    background-color:darkslategray;*/\n/*    background-image: url(\"img/back.jpg\");*/\n/*    background-attachment: fixed;*/\n/*    background-position:center;*/\n/*    color: white;*/\n/*    height: 100vh;*/\n/*}*/\n/*.header-logo, .footer-logo {*/\n/*    margin: 0;*/\n/*    padding: 0% 1.07% 0% 0;*/\n/*    box-sizing: border-box;*/\n/*    width: 15%;*/\n/*    float: left;*/\n/*}*/\n/*.header-logo a, .footer-logo {*/\n/*    display: block;*/\n/*    font-size: 300%;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*    line-height: 55px;*/\n/*    text-decoration: none;*/\n/*    color: white;*/\n/*    margin: 0;*/\n/*    padding: 10px 0 0 20px;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-logo::after {*/\n/*    display: block;*/\n/*    content: '';*/\n/*    border-right: 2px solid white;*/\n/*    height: 21px;*/\n/*    width: 100%;*/\n/*    position: relative;*/\n/*    top: -21px;*/\n/*    left: 9px;*/\n/*    transform: skewX(-45deg);*/\n/*}*/\n/*.header-nav, .footer-nav {*/\n/*    list-style: none;    */\n/*    margin: 0;*/\n/*    padding: 20px 20px 5px 0;*/\n/*    box-sizing: border-box;*/\n/*    float: right;*/\n/*    width: 85%;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-nav-container, .footer-nav-container {*/\n/*    float: right;*/\n/*}*/\n/*.header-nav li, .footer-nav li {*/\n/*    float: left;*/\n/*    margin-left: 20px;*/\n/*}*/\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\n/*    margin-left: 0;*/\n/*}*/\n/*.header-nav a, .footer-nav a {*/\n/*    color: white;*/\n/*    opacity: 70%;*/\n/*    text-decoration: none;*/\n/*    text-transform: uppercase;*/\n/*    font-family: 'Century Gothic', serif;*/\n/*}*/\n/*.header-nav a:hover {*/\n/*    opacity: 100%;*/\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\n/*}*/\n/*.header-text {*/\n/*    padding: 0;*/\n/*    margin-top: 25vh;*/\n/*    font-size: 86px;*/\n/*    text-align: center;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*} */", "",{"version":3,"sources":["webpack://./src/main/js/components/MainHeader/style.scss"],"names":[],"mappings":"AAAA;EACE,kFAAA;EACA,sBAAA;EACA,aAAA;AACF;AACE;EACE,6BAAA;EACA,gBAAA;EACA,YAAA;AACJ;AACI;EACE,8BAAA;EACA,eAAA;AACN;AACM;EACE,yCAAA;EACA,eAAA;AACR;AAEQ;EACE,yBAAA;EACA,YAAA;AAAV;AAEU;EACE,aAAA;EACA,gFAAA;AAAZ;AAKI;EACE,YAAA;AAHN;AAKM;EACE,yCAAA;EACA,eAAA;EACA,UAAA;EACA,gBAAA;AAHR;;AASA;sCAAA;AAEA,6CAAA;AACA,oCAAA;AACA,kCAAA;AACA,oBAAA;AACA,qBAAA;AACA,IAAA;AAEA,+BAAA;AACA,iBAAA;AACA,8BAAA;AACA,8BAAA;AACA,kBAAA;AACA,mBAAA;AACA,IAAA;AAEA,iCAAA;AACA,sBAAA;AACA,uBAAA;AACA,wBAAA;AACA,qCAAA;AACA,yBAAA;AACA,6BAAA;AACA,oBAAA;AAEA,iBAAA;AACA,8BAAA;AACA,sCAAA;AACA,IAAA;AAEA,wBAAA;AACA,sBAAA;AACA,mBAAA;AACA,qCAAA;AACA,oBAAA;AACA,mBAAA;AACA,0BAAA;AACA,kBAAA;AACA,iBAAA;AACA,gCAAA;AACA,IAAA;AAEA,6BAAA;AACA,4BAAA;AACA,iBAAA;AACA,gCAAA;AACA,8BAAA;AACA,oBAAA;AACA,kBAAA;AACA,sCAAA;AACA,IAAA;AAEA,iDAAA;AACA,oBAAA;AACA,IAAA;AAEA,mCAAA;AACA,mBAAA;AACA,yBAAA;AACA,IAAA;AAEA,2DAAA;AACA,sBAAA;AACA,IAAA;AAEA,iCAAA;AACA,oBAAA;AACA,oBAAA;AACA,6BAAA;AACA,iCAAA;AACA,4CAAA;AACA,IAAA;AAEA,wBAAA;AACA,qBAAA;AACA,wFAAA;AACA,IAAA;AAEA,iBAAA;AACA,kBAAA;AACA,wBAAA;AACA,uBAAA;AACA,0BAAA;AACA,wBAAA;AACA,qCAAA;AACA,KAAA","sourcesContent":[".header-main {\r\n  background: #3b3b3e url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed center;\r\n  background-size: cover;\r\n  height: 100vh;\r\n\r\n  .header-main__container {\r\n    background-color: transparent;\r\n    box-shadow: none;\r\n    height: 100%;\r\n\r\n    .header-main__nav {\r\n      border-bottom: 1px solid white;\r\n      padding: 0 20px;\r\n\r\n      .header-main__logo {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 40px;\r\n      }\r\n      .header-main__list {\r\n        .header-main__item {\r\n          text-transform: uppercase;\r\n          opacity: 70%;\r\n\r\n          &:hover {\r\n            opacity: 100%;\r\n            text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\r\n          }\r\n        }\r\n      }\r\n    }\r\n    .header-main__content {\r\n      height: 100%;\r\n\r\n      .header-main__text {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 500%;\r\n        padding: 0;\r\n        margin-top: 25vh;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n/* header {\r\n/*    background-color:darkslategray;*/\r\n/*    background-image: url(\"img/back.jpg\");*/\r\n/*    background-attachment: fixed;*/\r\n/*    background-position:center;*/\r\n/*    color: white;*/\r\n/*    height: 100vh;*/\r\n/*}*/\r\n\r\n/*.header-logo, .footer-logo {*/\r\n/*    margin: 0;*/\r\n/*    padding: 0% 1.07% 0% 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    width: 15%;*/\r\n/*    float: left;*/\r\n/*}*/\r\n\r\n/*.header-logo a, .footer-logo {*/\r\n/*    display: block;*/\r\n/*    font-size: 300%;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*    line-height: 55px;*/\r\n/*    text-decoration: none;*/\r\n/*    color: white;*/\r\n\r\n/*    margin: 0;*/\r\n/*    padding: 10px 0 0 20px;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-logo::after {*/\r\n/*    display: block;*/\r\n/*    content: '';*/\r\n/*    border-right: 2px solid white;*/\r\n/*    height: 21px;*/\r\n/*    width: 100%;*/\r\n/*    position: relative;*/\r\n/*    top: -21px;*/\r\n/*    left: 9px;*/\r\n/*    transform: skewX(-45deg);*/\r\n/*}*/\r\n\r\n/*.header-nav, .footer-nav {*/\r\n/*    list-style: none;    */\r\n/*    margin: 0;*/\r\n/*    padding: 20px 20px 5px 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    float: right;*/\r\n/*    width: 85%;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-nav-container, .footer-nav-container {*/\r\n/*    float: right;*/\r\n/*}*/\r\n\r\n/*.header-nav li, .footer-nav li {*/\r\n/*    float: left;*/\r\n/*    margin-left: 20px;*/\r\n/*}*/\r\n\r\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\r\n/*    margin-left: 0;*/\r\n/*}*/\r\n\r\n/*.header-nav a, .footer-nav a {*/\r\n/*    color: white;*/\r\n/*    opacity: 70%;*/\r\n/*    text-decoration: none;*/\r\n/*    text-transform: uppercase;*/\r\n/*    font-family: 'Century Gothic', serif;*/\r\n/*}*/\r\n\r\n/*.header-nav a:hover {*/\r\n/*    opacity: 100%;*/\r\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\r\n/*}*/\r\n\r\n/*.header-text {*/\r\n/*    padding: 0;*/\r\n/*    margin-top: 25vh;*/\r\n/*    font-size: 86px;*/\r\n/*    text-align: center;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*} */"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Navigation/style.scss":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Navigation/style.scss ***!
+  \***********************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".navigation {\n  background: transparent;\n  border-bottom: 1px solid white;\n  padding: 0 20px;\n}\n.navigation .navigation__logo {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 40px;\n}\n.navigation .navigation__list li {\n  text-transform: uppercase;\n  opacity: 70%;\n}\n.navigation .navigation__list li:hover {\n  opacity: 100%;\n  text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\n}", "",{"version":3,"sources":["webpack://./src/main/js/components/Navigation/style.scss"],"names":[],"mappings":"AAAA;EACE,uBAAA;EACA,8BAAA;EACA,eAAA;AACF;AACE;EACE,yCAAA;EACA,eAAA;AACJ;AAEI;EACE,yBAAA;EACA,YAAA;AAAN;AAEM;EACE,aAAA;EACA,gFAAA;AAAR","sourcesContent":[".navigation {\r\n  background: transparent;\r\n  border-bottom: 1px solid white;\r\n  padding: 0 20px;\r\n\r\n  .navigation__logo {\r\n    font-family: 'Forum', 'Arial', sans-serif;\r\n    font-size: 40px;\r\n  }\r\n  .navigation__list {\r\n    li {\r\n      text-transform: uppercase;\r\n      opacity: 70%;\r\n\r\n      &:hover {\r\n        opacity: 100%;\r\n        text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\r\n      }\r\n    }\r\n  }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

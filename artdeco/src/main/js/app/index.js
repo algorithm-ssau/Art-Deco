@@ -5,9 +5,7 @@ import axios from "axios";
 
 import {useRoutes} from './routes';
 
-//import 'bootstrap/dist/css/bootstrap.min.css';
 import 'materialize-css/dist/css/materialize.css';
-//import 'materialize-css';
 
 
 export class App extends Component  {

@@ -1,0 +1,21 @@
+.navigation {
+  background: transparent;
+  border-bottom: 1px solid white;
+  padding: 0 20px;
+
+  .navigation__logo {
+    font-family: 'Forum', 'Arial', sans-serif;
+    font-size: 40px;
+  }
+  .navigation__list {
+    li {
+      text-transform: uppercase;
+      opacity: 70%;
+
+      &:hover {
+        opacity: 100%;
+        text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;
+      }
+    }
+  }
+}
