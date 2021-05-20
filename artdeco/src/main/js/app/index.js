@@ -1,12 +1,8 @@
-import React,{ Component } from "react";
-import {BrowserRouter as Router} from 'react-router-dom';
+import React,{ Component } from "react"
+import {BrowserRouter as Router} from 'react-router-dom'
+import {useRoutes} from './routes'
 import ReactDOM from "react-dom";
 import axios from "axios";
-
-import {useRoutes} from './routes';
-
-import 'materialize-css/dist/css/materialize.css';
-
 
 export class App extends Component  {
 
@@ -22,11 +18,11 @@ export class App extends Component  {
     }
 
     componentDidMount() {
-        axios.get("/product/plaster").then(response=>this.setState({plaster:response.data}))
-        axios.get("/product/fresco").then(response=>this.setState({fresco:response.data}))
-        axios.get("/product/decor").then(response=>this.setState({decor:response.data}))
-        axios.get("/product/paint").then(response=>this.setState({paint:response.data}))
-        axios.get("/product/wallpaper").then(response=>this.setState({wallpaper:response.data}))
+        axios.get("/product/plaster").then(response => this.setState({plaster: response.data}))
+        axios.get("/product/fresco").then(response => this.setState({fresco: response.data}))
+        axios.get("/product/decor").then(response => this.setState({decor: response.data}))
+        axios.get("/product/paint").then(response => this.setState({paint: response.data}))
+        axios.get("/product/wallpaper").then(response => this.setState({wallpaper: response.data}))
     }
 
     render() {
@@ -66,13 +62,12 @@ class Product extends React.Component{
         return (
             <tr>
                 <td>{this.props.product.name}</td>
-                <td><img alt src={`data:${this.props.product.contentType};base64, ${this.props.product.image.data}`} width="200" height="200" /></td>
+                <td><img src={`data:${this.props.product.contentType};base64, ${this.props.product.image.data}`} width="200" height="200" /></td>
                 <td>{this.props.product.price}</td>
             </tr>
         )
     }
 }
 
-ReactDOM.render(<App />, document.querySelector("#app"));
 
-import './style.scss';
+ReactDOM.render(<App />, document.getElementById("react"));

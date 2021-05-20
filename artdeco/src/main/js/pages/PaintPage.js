@@ -57,7 +57,7 @@ export class PaintPage extends Component{
 
 
 				<div className="container">
-					<h1>Краски, красочки</h1>
+					<h1>Краски</h1>
 				</div>
 
 				<ProductList products={this.products}/>
