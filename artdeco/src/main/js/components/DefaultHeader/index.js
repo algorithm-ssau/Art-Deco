@@ -13,7 +13,7 @@ export default function DefaultHeader ({ text }) {
                 <Navigation />
 
                 <div className="header-default__content nav-content">
-                    <span className="header-default__text nav-title">{ text }</span>
+                    <h1 className="header-default__text nav-title">{ text }</h1>
                 </div>
 
             </nav>
