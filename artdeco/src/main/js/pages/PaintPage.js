@@ -1,5 +1,4 @@
 import React, {Component } from 'react'
-import "materialize-css/dist/css/materialize.css"
 import {ProductList} from "../app";
 
 import '../../resources/static/style.css'

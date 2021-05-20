@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../../resources/static/fonts/GOTHIC.TTF");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #3b3b3e;
+  font-size: 16px;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  color: white;
+}

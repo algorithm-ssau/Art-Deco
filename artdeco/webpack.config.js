@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     mode: 'development',
-    entry: './src/main/js/app.js',
+    entry: './src/main/js/app',
     output: {
         path: __dirname,
         filename: './src/main/resources/static/built/bundle.js'

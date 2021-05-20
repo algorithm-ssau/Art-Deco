@@ -1,32 +1,36 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import MainHeader from "../components/MainHeader";
+
 import '../../resources/static/style.css';
 
 
 export const MainPage = () => {
     return (
         <>
-            <header>
-                <div className="header-top clearfix">
-                    <div className="header-logo">
-                        <a href="/">Art Deco</a>
-                    </div>
-                    <ul className="header-nav clearfix">
-                        <div className="header-nav-container">
-                            <Link to={'/plaster'}>Декоративная штукатурка</Link>
-                            <Link to={'/fresco'}>Фрески</Link>
-                            <Link to={'/paint'}>Краски</Link>
-                            <Link to={'/wallpaper'}>Обои</Link>
-                            <Link to={'/decor'}>Декор</Link>
-                            <Link to={'/project'}>Наши проекты</Link>
-                            <Link to={'/contact'}>Контакты</Link>
-                        </div>
-                    </ul>
-                </div>
-                <p className="header-text">Уникальные покрытия.
-                    <br/>Уникальные решения</p>
-            </header>
+            <MainHeader />
+
+            {/*<header>*/}
+            {/*    <div className="header-top clearfix">*/}
+            {/*        <div className="header-logo">*/}
+            {/*            <a href="/">Art Deco</a>*/}
+            {/*        </div>*/}
+            {/*        <ul className="header-nav clearfix">*/}
+            {/*            <div className="header-nav-container">*/}
+            {/*                <Link to={'/plaster'}>Декоративная штукатурка</Link>*/}
+            {/*                <Link to={'/fresco'}>Фрески</Link>*/}
+            {/*                <Link to={'/paint'}>Краски</Link>*/}
+            {/*                <Link to={'/wallpaper'}>Обои</Link>*/}
+            {/*                <Link to={'/decor'}>Декор</Link>*/}
+            {/*                <Link to={'/project'}>Наши проекты</Link>*/}
+            {/*                <Link to={'/contact'}>Контакты</Link>*/}
+            {/*            </div>*/}
+            {/*        </ul>*/}
+            {/*    </div>*/}
+            {/*    <p className="header-text">Уникальные покрытия.*/}
+            {/*        <br/>Уникальные решения</p>*/}
+            {/*</header>*/}
             <main>
                 <section className="about-container">
                     <div className="about">

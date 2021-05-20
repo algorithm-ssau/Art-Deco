@@ -1,11 +1,14 @@
-import React,{ Component } from "react"
-import {BrowserRouter as Router} from 'react-router-dom'
-import {useRoutes} from './routes'
-//import 'materialize-css'
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import "materialize-css/dist/css/materialize.css"
+import React,{ Component } from "react";
+import {BrowserRouter as Router} from 'react-router-dom';
 import ReactDOM from "react-dom";
 import axios from "axios";
+
+import {useRoutes} from './routes';
+
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import 'materialize-css/dist/css/materialize.css';
+//import 'materialize-css';
+
 
 export class App extends Component  {
 
@@ -65,12 +68,13 @@ class Product extends React.Component{
         return (
             <tr>
                 <td>{this.props.product.name}</td>
-                <td><img src={`data:${this.props.product.contentType};base64, ${this.props.product.image.data}`} width="200" height="200" /></td>
+                <td><img alt src={`data:${this.props.product.contentType};base64, ${this.props.product.image.data}`} width="200" height="200" /></td>
                 <td>{this.props.product.price}</td>
             </tr>
         )
     }
 }
 
-
 ReactDOM.render(<App />, document.querySelector("#app"));
+
+import './style.scss';

@@ -1,0 +1,129 @@
+.header-main {
+  background: #3b3b3e url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed center;
+  background-size: cover;
+  height: 100vh;
+
+  .header-main__container {
+    background-color: transparent;
+    box-shadow: none;
+    height: 100%;
+
+    .header-main__nav {
+      border-bottom: 1px solid white;
+      padding: 0 20px;
+
+      .header-main__logo {
+        font-family: 'Forum', 'Arial', sans-serif;
+      }
+      .header-main__list {
+        .header-main__item {
+          text-transform: uppercase;
+          opacity: 70%;
+
+          &:hover {
+            opacity: 100%;
+            text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;
+          }
+        }
+      }
+    }
+    .header-main__content {
+      height: 100%;
+
+      .header-main__text {
+        font-family: 'Forum', 'Arial', sans-serif;
+        font-size: 500%;
+        padding: 0;
+        margin-top: 25vh;
+      }
+    }
+  }
+}
+
+/* header {
+/*    background-color:darkslategray;*/
+/*    background-image: url("img/back.jpg");*/
+/*    background-attachment: fixed;*/
+/*    background-position:center;*/
+/*    color: white;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.header-logo, .footer-logo {*/
+/*    margin: 0;*/
+/*    padding: 0% 1.07% 0% 0;*/
+/*    box-sizing: border-box;*/
+/*    width: 15%;*/
+/*    float: left;*/
+/*}*/
+
+/*.header-logo a, .footer-logo {*/
+/*    display: block;*/
+/*    font-size: 300%;*/
+/*    font-weight: 400;*/
+/*    font-family: 'Forum', cursive;*/
+/*    line-height: 55px;*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+
+/*    margin: 0;*/
+/*    padding: 10px 0 0 20px;*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
+
+/*.header-logo::after {*/
+/*    display: block;*/
+/*    content: '';*/
+/*    border-right: 2px solid white;*/
+/*    height: 21px;*/
+/*    width: 100%;*/
+/*    position: relative;*/
+/*    top: -21px;*/
+/*    left: 9px;*/
+/*    transform: skewX(-45deg);*/
+/*}*/
+
+/*.header-nav, .footer-nav {*/
+/*    list-style: none;    */
+/*    margin: 0;*/
+/*    padding: 20px 20px 5px 0;*/
+/*    box-sizing: border-box;*/
+/*    float: right;*/
+/*    width: 85%;*/
+/*    border-bottom: 1px solid white;*/
+/*}*/
+
+/*.header-nav-container, .footer-nav-container {*/
+/*    float: right;*/
+/*}*/
+
+/*.header-nav li, .footer-nav li {*/
+/*    float: left;*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.header-nav li:first-child, .footer-nav li:first-child {*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.header-nav a, .footer-nav a {*/
+/*    color: white;*/
+/*    opacity: 70%;*/
+/*    text-decoration: none;*/
+/*    text-transform: uppercase;*/
+/*    font-family: 'Century Gothic', serif;*/
+/*}*/
+
+/*.header-nav a:hover {*/
+/*    opacity: 100%;*/
+/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/
+/*}*/
+
+/*.header-text {*/
+/*    padding: 0;*/
+/*    margin-top: 25vh;*/
+/*    font-size: 86px;*/
+/*    text-align: center;*/
+/*    font-weight: 400;*/
+/*    font-family: 'Forum', cursive;*/
+/*} */
