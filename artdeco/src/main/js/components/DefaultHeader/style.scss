@@ -1,0 +1,26 @@
+.header-default {
+  background: url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed bottom;
+  background-size: cover;
+  height: 40vh;
+
+  .header-default__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: transparent;
+    box-shadow: none;
+    height: 100%;
+
+    .header-default__content {
+      text-align: right;
+
+      .header-default__text {
+        font-family: 'Forum', 'Arial', sans-serif;
+        font-size: 400%;
+        margin-right: 20vw;
+        padding: 0;
+      }
+    }
+  }
+}

@@ -1959,6 +1959,30 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/main/js/components/DefaultHeader/style.scss":
+/*!*********************************************************!*\
+  !*** ./src/main/js/components/DefaultHeader/style.scss ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/DefaultHeader/style.scss");
+
+
+var options = {};
+options.insert = "head";
+options.singleton = false;
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./src/main/js/components/MainHeader/style.scss":
 /*!******************************************************!*\
   !*** ./src/main/js/components/MainHeader/style.scss ***!
@@ -2317,6 +2341,38 @@ var useRoutes = function useRoutes(ex_state) {
 
 /***/ }),
 
+/***/ "./src/main/js/components/DefaultHeader/index.js":
+/*!*******************************************************!*\
+  !*** ./src/main/js/components/DefaultHeader/index.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ DefaultHeader)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Navigation */ "./src/main/js/components/Navigation/index.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/main/js/components/DefaultHeader/style.scss");
+
+
+
+function DefaultHeader(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
+    className: "header-default"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    className: "header-default__container nav-extended"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "header-default__content nav-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "header-default__text nav-title"
+  }, text))));
+}
+
+/***/ }),
+
 /***/ "./src/main/js/components/MainHeader/index.js":
 /*!****************************************************!*\
   !*** ./src/main/js/components/MainHeader/index.js ***!
@@ -2336,13 +2392,13 @@ __webpack_require__.r(__webpack_exports__);
 
 function MainHeader() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", {
-    className: "header-main"
+    className: "header"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
-    className: "header-main__container nav-extended"
+    className: "header__container nav-extended"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "header-main__content nav-content center"
+    className: "header__content nav-content center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "header-main__text nav-title"
+    className: "header__text nav-title"
   }, "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F"))));
 }
 
@@ -2518,8 +2574,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2564,47 +2620,9 @@ var DecorPage = /*#__PURE__*/function (_Component) {
   _createClass(DecorPage, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
-        href: "https://fonts.googleapis.com/css2?family=Forum&display=swap",
-        rel: "stylesheet"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-        charSet: "utf-8"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-        name: "keywords",
-        content: "\u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430, \u0444\u0440\u0435\u0441\u043A\u0430, \u043A\u0440\u0430\u0441\u043A\u0430,\r \u043E\u0431\u043E\u0438, \u0434\u0435\u043A\u043E\u0440, \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439, \u0440\u0435\u043C\u043E\u043D\u0442"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-        name: "description",
-        content: true
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, " Art Deco "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "header-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "header-logo"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/"
-      }, "Art Deco")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "header-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "header-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/plaster'
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/fresco'
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/paint'
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/wallpaper'
-      }, "\u041E\u0431\u043E\u0438"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/decor'
-      }, "\u0414\u0435\u043A\u043E\u0440"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/project'
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
-        to: '/contact'
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "header-text"
-      }, "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u044F.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_DefaultHeader__WEBPACK_IMPORTED_MODULE_2__.default, {
+        text: "\u0414\u0435\u043A\u043E\u0440"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
         src: "img/decor2.jpg",
@@ -2842,7 +2860,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_MainHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MainHeader */ "./src/main/js/components/MainHeader/index.js");
 /* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
-
 
 
 
@@ -3501,6 +3518,39 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n  font-family: \"Century
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/DefaultHeader/style.scss":
+/*!**************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/DefaultHeader/style.scss ***!
+  \**************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _resources_static_img_Photo_Art_Deco_main_main_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../resources/static/img/Photo Art Deco/main/main.jpg */ "./src/main/resources/static/img/Photo Art Deco/main/main.jpg");
+// Imports
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_resources_static_img_Photo_Art_Deco_main_main_jpg__WEBPACK_IMPORTED_MODULE_3__.default);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".header-default {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat fixed bottom;\n  background-size: cover;\n  height: 40vh;\n}\n.header-default .header-default__container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  background-color: transparent;\n  box-shadow: none;\n  height: 100%;\n}\n.header-default .header-default__container .header-default__content {\n  text-align: right;\n}\n.header-default .header-default__container .header-default__content .header-default__text {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 400%;\n  margin-right: 20vw;\n  padding: 0;\n}", "",{"version":3,"sources":["webpack://./src/main/js/components/DefaultHeader/style.scss"],"names":[],"mappings":"AAAA;EACE,0EAAA;EACA,sBAAA;EACA,YAAA;AACF;AACE;EACE,aAAA;EACA,sBAAA;EACA,8BAAA;EAEA,6BAAA;EACA,gBAAA;EACA,YAAA;AAAJ;AAEI;EACE,iBAAA;AAAN;AAEM;EACE,yCAAA;EACA,eAAA;EACA,kBAAA;EACA,UAAA;AAAR","sourcesContent":[".header-default {\r\n  background: url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed bottom;\r\n  background-size: cover;\r\n  height: 40vh;\r\n\r\n  .header-default__container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n\r\n    background-color: transparent;\r\n    box-shadow: none;\r\n    height: 100%;\r\n\r\n    .header-default__content {\r\n      text-align: right;\r\n\r\n      .header-default__text {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 400%;\r\n        margin-right: 20vw;\r\n        padding: 0;\r\n      }\r\n    }\r\n  }\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/MainHeader/style.scss":
 /*!***********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/MainHeader/style.scss ***!
@@ -3527,7 +3577,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_resources_static_img_Photo_Art_Deco_main_main_jpg__WEBPACK_IMPORTED_MODULE_3__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header-main {\n  background: #3b3b3e url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat fixed center;\n  background-size: cover;\n  height: 100vh;\n}\n.header-main .header-main__container {\n  background-color: transparent;\n  box-shadow: none;\n  height: 100%;\n}\n.header-main .header-main__container .header-main__nav {\n  border-bottom: 1px solid white;\n  padding: 0 20px;\n}\n.header-main .header-main__container .header-main__nav .header-main__logo {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 40px;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item {\n  text-transform: uppercase;\n  opacity: 70%;\n}\n.header-main .header-main__container .header-main__nav .header-main__list .header-main__item:hover {\n  opacity: 100%;\n  text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\n}\n.header-main .header-main__container .header-main__content {\n  height: 100%;\n}\n.header-main .header-main__container .header-main__content .header-main__text {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 500%;\n  padding: 0;\n  margin-top: 25vh;\n}\n\n/* header {\n/*    background-color:darkslategray;*/\n/*    background-image: url(\"img/back.jpg\");*/\n/*    background-attachment: fixed;*/\n/*    background-position:center;*/\n/*    color: white;*/\n/*    height: 100vh;*/\n/*}*/\n/*.header-logo, .footer-logo {*/\n/*    margin: 0;*/\n/*    padding: 0% 1.07% 0% 0;*/\n/*    box-sizing: border-box;*/\n/*    width: 15%;*/\n/*    float: left;*/\n/*}*/\n/*.header-logo a, .footer-logo {*/\n/*    display: block;*/\n/*    font-size: 300%;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*    line-height: 55px;*/\n/*    text-decoration: none;*/\n/*    color: white;*/\n/*    margin: 0;*/\n/*    padding: 10px 0 0 20px;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-logo::after {*/\n/*    display: block;*/\n/*    content: '';*/\n/*    border-right: 2px solid white;*/\n/*    height: 21px;*/\n/*    width: 100%;*/\n/*    position: relative;*/\n/*    top: -21px;*/\n/*    left: 9px;*/\n/*    transform: skewX(-45deg);*/\n/*}*/\n/*.header-nav, .footer-nav {*/\n/*    list-style: none;    */\n/*    margin: 0;*/\n/*    padding: 20px 20px 5px 0;*/\n/*    box-sizing: border-box;*/\n/*    float: right;*/\n/*    width: 85%;*/\n/*    border-bottom: 1px solid white;*/\n/*}*/\n/*.header-nav-container, .footer-nav-container {*/\n/*    float: right;*/\n/*}*/\n/*.header-nav li, .footer-nav li {*/\n/*    float: left;*/\n/*    margin-left: 20px;*/\n/*}*/\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\n/*    margin-left: 0;*/\n/*}*/\n/*.header-nav a, .footer-nav a {*/\n/*    color: white;*/\n/*    opacity: 70%;*/\n/*    text-decoration: none;*/\n/*    text-transform: uppercase;*/\n/*    font-family: 'Century Gothic', serif;*/\n/*}*/\n/*.header-nav a:hover {*/\n/*    opacity: 100%;*/\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\n/*}*/\n/*.header-text {*/\n/*    padding: 0;*/\n/*    margin-top: 25vh;*/\n/*    font-size: 86px;*/\n/*    text-align: center;*/\n/*    font-weight: 400;*/\n/*    font-family: 'Forum', cursive;*/\n/*} */", "",{"version":3,"sources":["webpack://./src/main/js/components/MainHeader/style.scss"],"names":[],"mappings":"AAAA;EACE,kFAAA;EACA,sBAAA;EACA,aAAA;AACF;AACE;EACE,6BAAA;EACA,gBAAA;EACA,YAAA;AACJ;AACI;EACE,8BAAA;EACA,eAAA;AACN;AACM;EACE,yCAAA;EACA,eAAA;AACR;AAEQ;EACE,yBAAA;EACA,YAAA;AAAV;AAEU;EACE,aAAA;EACA,gFAAA;AAAZ;AAKI;EACE,YAAA;AAHN;AAKM;EACE,yCAAA;EACA,eAAA;EACA,UAAA;EACA,gBAAA;AAHR;;AASA;sCAAA;AAEA,6CAAA;AACA,oCAAA;AACA,kCAAA;AACA,oBAAA;AACA,qBAAA;AACA,IAAA;AAEA,+BAAA;AACA,iBAAA;AACA,8BAAA;AACA,8BAAA;AACA,kBAAA;AACA,mBAAA;AACA,IAAA;AAEA,iCAAA;AACA,sBAAA;AACA,uBAAA;AACA,wBAAA;AACA,qCAAA;AACA,yBAAA;AACA,6BAAA;AACA,oBAAA;AAEA,iBAAA;AACA,8BAAA;AACA,sCAAA;AACA,IAAA;AAEA,wBAAA;AACA,sBAAA;AACA,mBAAA;AACA,qCAAA;AACA,oBAAA;AACA,mBAAA;AACA,0BAAA;AACA,kBAAA;AACA,iBAAA;AACA,gCAAA;AACA,IAAA;AAEA,6BAAA;AACA,4BAAA;AACA,iBAAA;AACA,gCAAA;AACA,8BAAA;AACA,oBAAA;AACA,kBAAA;AACA,sCAAA;AACA,IAAA;AAEA,iDAAA;AACA,oBAAA;AACA,IAAA;AAEA,mCAAA;AACA,mBAAA;AACA,yBAAA;AACA,IAAA;AAEA,2DAAA;AACA,sBAAA;AACA,IAAA;AAEA,iCAAA;AACA,oBAAA;AACA,oBAAA;AACA,6BAAA;AACA,iCAAA;AACA,4CAAA;AACA,IAAA;AAEA,wBAAA;AACA,qBAAA;AACA,wFAAA;AACA,IAAA;AAEA,iBAAA;AACA,kBAAA;AACA,wBAAA;AACA,uBAAA;AACA,0BAAA;AACA,wBAAA;AACA,qCAAA;AACA,KAAA","sourcesContent":[".header-main {\r\n  background: #3b3b3e url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed center;\r\n  background-size: cover;\r\n  height: 100vh;\r\n\r\n  .header-main__container {\r\n    background-color: transparent;\r\n    box-shadow: none;\r\n    height: 100%;\r\n\r\n    .header-main__nav {\r\n      border-bottom: 1px solid white;\r\n      padding: 0 20px;\r\n\r\n      .header-main__logo {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 40px;\r\n      }\r\n      .header-main__list {\r\n        .header-main__item {\r\n          text-transform: uppercase;\r\n          opacity: 70%;\r\n\r\n          &:hover {\r\n            opacity: 100%;\r\n            text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;\r\n          }\r\n        }\r\n      }\r\n    }\r\n    .header-main__content {\r\n      height: 100%;\r\n\r\n      .header-main__text {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 500%;\r\n        padding: 0;\r\n        margin-top: 25vh;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n/* header {\r\n/*    background-color:darkslategray;*/\r\n/*    background-image: url(\"img/back.jpg\");*/\r\n/*    background-attachment: fixed;*/\r\n/*    background-position:center;*/\r\n/*    color: white;*/\r\n/*    height: 100vh;*/\r\n/*}*/\r\n\r\n/*.header-logo, .footer-logo {*/\r\n/*    margin: 0;*/\r\n/*    padding: 0% 1.07% 0% 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    width: 15%;*/\r\n/*    float: left;*/\r\n/*}*/\r\n\r\n/*.header-logo a, .footer-logo {*/\r\n/*    display: block;*/\r\n/*    font-size: 300%;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*    line-height: 55px;*/\r\n/*    text-decoration: none;*/\r\n/*    color: white;*/\r\n\r\n/*    margin: 0;*/\r\n/*    padding: 10px 0 0 20px;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-logo::after {*/\r\n/*    display: block;*/\r\n/*    content: '';*/\r\n/*    border-right: 2px solid white;*/\r\n/*    height: 21px;*/\r\n/*    width: 100%;*/\r\n/*    position: relative;*/\r\n/*    top: -21px;*/\r\n/*    left: 9px;*/\r\n/*    transform: skewX(-45deg);*/\r\n/*}*/\r\n\r\n/*.header-nav, .footer-nav {*/\r\n/*    list-style: none;    */\r\n/*    margin: 0;*/\r\n/*    padding: 20px 20px 5px 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    float: right;*/\r\n/*    width: 85%;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-nav-container, .footer-nav-container {*/\r\n/*    float: right;*/\r\n/*}*/\r\n\r\n/*.header-nav li, .footer-nav li {*/\r\n/*    float: left;*/\r\n/*    margin-left: 20px;*/\r\n/*}*/\r\n\r\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\r\n/*    margin-left: 0;*/\r\n/*}*/\r\n\r\n/*.header-nav a, .footer-nav a {*/\r\n/*    color: white;*/\r\n/*    opacity: 70%;*/\r\n/*    text-decoration: none;*/\r\n/*    text-transform: uppercase;*/\r\n/*    font-family: 'Century Gothic', serif;*/\r\n/*}*/\r\n\r\n/*.header-nav a:hover {*/\r\n/*    opacity: 100%;*/\r\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\r\n/*}*/\r\n\r\n/*.header-text {*/\r\n/*    padding: 0;*/\r\n/*    margin-top: 25vh;*/\r\n/*    font-size: 86px;*/\r\n/*    text-align: center;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*} */"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat fixed center;\n  background-size: cover;\n  height: 100vh;\n}\n.header .header__container {\n  background-color: transparent;\n  box-shadow: none;\n  height: 100%;\n}\n.header .header__container .header__content {\n  height: 100%;\n}\n.header .header__container .header__content .header__text {\n  font-family: \"Forum\", \"Arial\", sans-serif;\n  font-size: 500%;\n  padding: 0;\n  margin-top: 25vh;\n}", "",{"version":3,"sources":["webpack://./src/main/js/components/MainHeader/style.scss"],"names":[],"mappings":"AAAA;EACE,0EAAA;EACA,sBAAA;EACA,aAAA;AACF;AACE;EACE,6BAAA;EACA,gBAAA;EACA,YAAA;AACJ;AACI;EACE,YAAA;AACN;AACM;EACE,yCAAA;EACA,eAAA;EACA,UAAA;EACA,gBAAA;AACR","sourcesContent":[".header {\r\n  background: url('../../../resources/static/img/Photo Art Deco/main/main.jpg') no-repeat fixed center;\r\n  background-size: cover;\r\n  height: 100vh;\r\n\r\n  .header__container {\r\n    background-color: transparent;\r\n    box-shadow: none;\r\n    height: 100%;\r\n\r\n    .header__content {\r\n      height: 100%;\r\n\r\n      .header__text {\r\n        font-family: 'Forum', 'Arial', sans-serif;\r\n        font-size: 500%;\r\n        padding: 0;\r\n        margin-top: 25vh;\r\n      }\r\n    }\r\n  }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
