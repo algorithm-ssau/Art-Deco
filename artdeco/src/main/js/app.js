@@ -1,9 +1,6 @@
 import React,{ Component } from "react"
 import {BrowserRouter as Router} from 'react-router-dom'
 import {useRoutes} from './routes'
-//import 'materialize-css'
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import "materialize-css/dist/css/materialize.css"
 import ReactDOM from "react-dom";
 import axios from "axios";
 
@@ -21,11 +18,11 @@ export class App extends Component  {
     }
 
     componentDidMount() {
-        axios.get("/product/plaster").then(response=>this.setState({plaster:response.data}))
-        axios.get("/product/fresco").then(response=>this.setState({fresco:response.data}))
-        axios.get("/product/decor").then(response=>this.setState({decor:response.data}))
-        axios.get("/product/paint").then(response=>this.setState({paint:response.data}))
-        axios.get("/product/wallpaper").then(response=>this.setState({wallpaper:response.data}))
+        axios.get("/product/plaster").then(response => this.setState({plaster: response.data}))
+        axios.get("/product/fresco").then(response => this.setState({fresco: response.data}))
+        axios.get("/product/decor").then(response => this.setState({decor: response.data}))
+        axios.get("/product/paint").then(response => this.setState({paint: response.data}))
+        axios.get("/product/wallpaper").then(response => this.setState({wallpaper: response.data}))
     }
 
     render() {
@@ -73,4 +70,4 @@ class Product extends React.Component{
 }
 
 
-ReactDOM.render(<App />, document.querySelector("#app"));
+ReactDOM.render(<App />, document.getElementById("react"));

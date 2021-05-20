@@ -1,5 +1,4 @@
 import React, {Component } from 'react'
-import "materialize-css/dist/css/materialize.css"
 import {ProductList} from "../app";
 
 import '../../resources/static/style.css'
@@ -58,7 +57,7 @@ export class PaintPage extends Component{
 
 
 				<div className="container">
-					<h1>Краски, красочки</h1>
+					<h1>Краски</h1>
 				</div>
 
 				<ProductList products={this.products}/>

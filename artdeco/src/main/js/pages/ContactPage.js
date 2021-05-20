@@ -1,5 +1,4 @@
 import React from 'react'
-import "materialize-css/dist/css/materialize.css"
 import '../../resources/static/style.css'
 import {Link} from 'react-router-dom';
 export const ContactPage = () => {

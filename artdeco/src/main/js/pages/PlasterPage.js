@@ -1,9 +1,4 @@
 import React, {Component } from 'react'
-//import 'materialize-css'
-/*import img from "../../resources/static/img/parallax4.jpg"
-import img2 from "../../resources/static/img/parallax3.jpg"*/
-import "materialize-css/dist/css/materialize.css"
-//import {Parallax} from "react-parallax";
 import {ProductList} from "../app";
 import '../../resources/static/style.css'
 import {Link} from 'react-router-dom';
