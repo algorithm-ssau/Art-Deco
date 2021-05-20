@@ -12,6 +12,4 @@ public class ArtdecoApplication {
 
 		SpringApplication.run(ArtdecoApplication.class, args);
 	}
-
-
 }

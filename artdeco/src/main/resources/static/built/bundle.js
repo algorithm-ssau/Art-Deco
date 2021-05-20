@@ -2622,27 +2622,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "MainPage": () => (/* binding */ MainPage)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 
 
 
 var MainPage = function MainPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
-    href: "https://fonts.googleapis.com/css2?family=Forum&display=swap",
-    rel: "stylesheet"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-    charSet: "utf-8"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-    name: "keywords",
-    content: "\u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430, \u0444\u0440\u0435\u0441\u043A\u0430, \u043A\u0440\u0430\u0441\u043A\u0430,\r \u043E\u0431\u043E\u0438, \u0434\u0435\u043A\u043E\u0440, \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439, \u0440\u0435\u043C\u043E\u043D\u0442"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("meta", {
-    name: "description",
-    content: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, " Art Deco "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "header-top clearfix"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "header-logo"
