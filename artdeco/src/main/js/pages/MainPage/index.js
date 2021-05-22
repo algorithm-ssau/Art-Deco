@@ -2,6 +2,7 @@ import React from 'react';
 
 import MainHeader from "../../components/MainHeader";
 import Description from "./Description";
+import Description2 from "./Description2";
 import Footer from "../../components/Footer";
 
 import '../../../resources/static/style.css';
@@ -14,6 +15,7 @@ export const MainPage = () => {
 
             <main>
                 <Description />
+                <Description2 />
 
                 <section className="features">
                     <ul className="features-list">

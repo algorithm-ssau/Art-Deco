@@ -13,10 +13,10 @@ export default function MainHeader() {
                 <Navigation />
 
                 <div className="header__content nav-content center">
-                    <span className="header__text nav-title">
+                    <p className="header__text nav-title">
                         Уникальные покрытия. <br/>
                         Уникальные решения
-                    </span>
+                    </p>
                 </div>
 
             </nav>

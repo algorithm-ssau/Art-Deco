@@ -28,6 +28,8 @@ module.exports = {
                     "style-loader",
                     // Translates CSS into CommonJS
                     "css-loader",
+                    // Post CSS Loader
+                    "postcss-loader",
                     // Compiles Sass to CSS
                     "sass-loader",
                 ],
@@ -36,7 +38,8 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     'style-loader',
-                    'css-loader'
+                    'css-loader',
+                    'postcss-loader'
                 ]
             },
             {
