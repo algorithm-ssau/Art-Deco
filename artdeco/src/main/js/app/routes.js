@@ -1,5 +1,6 @@
 import React from 'react'
 import {Switch, Route, Redirect} from 'react-router-dom'
+
 import {PlasterPage} from '../pages/PlasterPage'
 import {DecorPage} from '../pages/DecorPage'
 import {PaintPage} from '../pages/PaintPage'
@@ -8,6 +9,7 @@ import {MainPage} from '../pages/MainPage'
 import {ContactPage} from '../pages/ContactPage'
 import {FrescoPage} from '../pages/FrescoPage'
 import {ProjectPage} from '../pages/ProjectPage'
+
 
 export const useRoutes = (ex_state) => {
 	return (

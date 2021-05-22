@@ -1,9 +1,10 @@
 import React from 'react';
 
-import MainHeader from "../components/MainHeader";
-import Footer from "../components/Footer";
+import MainHeader from "../../components/MainHeader";
+import Description from "./Description";
+import Footer from "../../components/Footer";
 
-import '../../resources/static/style.css';
+import '../../../resources/static/style.css';
 
 
 export const MainPage = () => {
@@ -12,17 +13,8 @@ export const MainPage = () => {
             <MainHeader/>
 
             <main>
-                <section className="about-container">
-                    <div className="about">
-                        <p>Art DECO — это широкий выбор декоративных
-                            покрытий от лучших производителей.
-                            Мы предлагаем интересные решения
-                            для любого ценового диапазона и любой
-                            площади пространства. Вместе с Вами мы
-                            создадим неповторимый дизайн, добавив
-                            помещению свежести и пространства.</p>
-                    </div>
-                </section>
+                <Description />
+
                 <section className="features">
                     <ul className="features-list">
                         <li className="eco">
@@ -106,39 +98,6 @@ export const MainPage = () => {
                     </div>
                 </section>
             </main>
-
-
-
-
-            {/*<footer>*/}
-            {/*    <div className="footer-top clearfix">*/}
-            {/*        <a href="#" className="footer-logo">Art Deco</a>*/}
-            {/*        <ul className="footer-nav clearfix">*/}
-            {/*            <div className="footer-nav-container">*/}
-            {/*                <li><a href="/plaster">Декоративная штукатурка</a></li>*/}
-            {/*                <li><a href="/fresco">Фрески</a></li>*/}
-            {/*                <li><a href="/paint">Краски</a></li>*/}
-            {/*                <li><a href="/wallpaper">Обои</a></li>*/}
-            {/*                <li><a href="/decor">Декор</a></li>*/}
-            {/*                <li><a href="/project">Наши проекты</a></li>*/}
-            {/*                <li><a href="/contact">Контакты</a></li>*/}
-            {/*            </div>*/}
-            {/*        </ul>*/}
-            {/*    </div>*/}
-            {/*    <div className="footer-bottom clearfix">*/}
-            {/*        <div className="footer-left">*/}
-            {/*            <p className="address">г. Самара, ул.Ново-Садовая, д. 163</p>*/}
-            {/*            <p className="contacts">тел. +7 (846) 248-08-78<br/>*/}
-            {/*                e-mail: artdeco63@inbox.ru</p>*/}
-            {/*        </div>*/}
-            {/*        <div className="footer-right">*/}
-            {/*            <a className="inst-icon" href="https://www.instagram.com/artdeco_63/"></a>*/}
-            {/*            <span className="inst-text">artdeco_63</span>*/}
-            {/*            <span className="middle-el"/>*/}
-            {/*        </div>*/}
-            {/*        <p className="copyright">© 2021 Art Deco</p>*/}
-            {/*    </div>*/}
-            {/*</footer>*/}
 
             <Footer/>
         </>
