@@ -1983,6 +1983,30 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/main/js/components/Footer/style.scss":
+/*!**************************************************!*\
+  !*** ./src/main/js/components/Footer/style.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Footer/style.scss");
+
+
+var options = {};
+options.insert = "head";
+options.singleton = false;
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./src/main/js/components/MainHeader/style.scss":
 /*!******************************************************!*\
   !*** ./src/main/js/components/MainHeader/style.scss ***!
@@ -2085,10 +2109,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/main/resources/static/img/inst1.png":
-/*!*************************************************!*\
-  !*** ./src/main/resources/static/img/inst1.png ***!
-  \*************************************************/
+/***/ "./src/main/resources/static/img/icons/inst1.png":
+/*!*******************************************************!*\
+  !*** ./src/main/resources/static/img/icons/inst1.png ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2373,6 +2397,50 @@ function DefaultHeader(_ref) {
 
 /***/ }),
 
+/***/ "./src/main/js/components/Footer/index.js":
+/*!************************************************!*\
+  !*** ./src/main/js/components/Footer/index.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Footer)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Navigation */ "./src/main/js/components/Navigation/index.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/main/js/components/Footer/style.scss");
+
+
+
+function Footer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+    className: "footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "footer__nav"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navigation__WEBPACK_IMPORTED_MODULE_1__.default, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "footer__content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "footer__info"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "footer__address"
+  }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "footer__contacts"
+  }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "footer__instagram"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "footer__instagram-icon",
+    href: "https://www.instagram.com/artdeco_63/"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "footer__instagram-text"
+  }, "artdeco_63"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "footer__copyright"
+  }, "\xA9 2021 Art Deco"));
+}
+
+/***/ }),
+
 /***/ "./src/main/js/components/MainHeader/index.js":
 /*!****************************************************!*\
   !*** ./src/main/js/components/MainHeader/index.js ***!
@@ -2423,8 +2491,7 @@ __webpack_require__.r(__webpack_exports__);
 function Navigation() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
     className: "navigation nav-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "navigation__logo brand-logo left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: '/'
@@ -2463,7 +2530,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+
 
 
 
@@ -2476,49 +2545,7 @@ var ContactPage = function ContactPage() {
     src: "https://www.google.com/maps/d/embed?mid=1F_Qrm-aMVdCb0_d2sA55u9iaCz1ENHti",
     width: "640",
     height: "480"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-top clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
-    className: "footer-logo"
-  }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "footer-nav clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-nav-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/plaster"
-  }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/fresco"
-  }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/paint"
-  }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/wallpaper"
-  }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/decor"
-  }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/project"
-  }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/contact"
-  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-bottom clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "address"
-  }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "contacts"
-  }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "inst-icon",
-    href: "https://www.instagram.com/artdeco_63/"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "inst-text"
-  }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "middle-el"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "copyright"
-  }, "\xA9 2021 Art Deco"))));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
 };
 
 /***/ }),
@@ -2536,8 +2563,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2559,6 +2587,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -2594,53 +2623,11 @@ var DecorPage = /*#__PURE__*/function (_Component) {
         hspace: "10px"
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0414\u0435\u043A\u043E\u0440 \u043C\u043E\u0436\u0435\u0442 \u043F\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u0435 \u0432 \u0441\u0430\u043C\u044B\u0445 \u0440\u0430\u0437\u043D\u044B\u0445 \u0432\u0430\u0440\u0438\u0430\u0446\u0438\u044F\u0445: \u043B\u0435\u043F\u043D\u0438\u043D\u0430 \u0438 \u043F\u0430\u043D\u043D\u043E, \u043C\u043E\u043B\u0434\u0438\u043D\u0433\u0438 \u0438 \u043F\u043B\u0438\u043D\u0442\u0443\u0441\u0430, \u043A\u043E\u043B\u043E\u043D\u043D\u044B \u0438 \u043A\u0430\u043F\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043A\u0438 \u0438 \u043A\u0430\u0440\u043D\u0438\u0437\u044B, \u0440\u043E\u0437\u0435\u0442\u043A\u0438 \u0438 \u043C\u0435\u0434\u0430\u043B\u044C\u043E\u043D\u044B, \u043F\u044C\u0435\u0434\u0435\u0441\u0442\u0430\u043B\u044B \u0438 \u043F\u0438\u043B\u044F\u0441\u0442\u0440\u044B. \u0422\u0430\u043A\u0438\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0435 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0434\u0430\u044E\u0442 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0434\u043B\u044F \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u0430, \u0441 \u043D\u0438\u043C\u0438 \u043C\u043E\u0436\u043D\u043E \u0432\u043E\u043F\u043B\u043E\u0442\u0438\u0442\u044C \u0432 \u0436\u0438\u0437\u043D\u044C \u0441\u0430\u043C\u044B\u0435 \u0440\u0430\u0437\u043D\u044B\u0435 \u0438\u0434\u0435\u0438. \u0412\u0430\u0436\u043D\u0443\u044E \u0440\u043E\u043B\u044C \u043F\u0440\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u0434\u0435\u043A\u043E\u0440\u0430 \u0438\u0433\u0440\u0430\u0435\u0442 \u0446\u0432\u0435\u0442: \u0431\u0435\u043B\u0430\u044F \u043B\u0435\u043F\u043D\u0438\u043D\u0430 \u044D\u0444\u0444\u0435\u043A\u0442\u043D\u043E \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0441\u044F \u043F\u043E\u0447\u0442\u0438 \u0432 \u043B\u044E\u0431\u043E\u043C \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u0435, \u043D\u043E \u043F\u0440\u0438 \u0436\u0435\u043B\u0430\u043D\u0438\u0438 \u043E\u043D\u0430 \u043B\u0435\u0433\u043A\u043E \u0438 \u0431\u044B\u0441\u0442\u0440\u043E \u043A\u0440\u0430\u0441\u0438\u0442\u0441\u044F \u0432 \u043B\u044E\u0431\u043E\u0439 \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u044B\u0439 \u0432\u0430\u043C\u0438 \u0446\u0432\u0435\u0442.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0414\u0435\u043A\u043E\u0440 \u043C\u043E\u0436\u0435\u0442 \u043F\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C \u0432 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u0435 \u0432 \u0441\u0430\u043C\u044B\u0445 \u0440\u0430\u0437\u043D\u044B\u0445 \u0432\u0430\u0440\u0438\u0430\u0446\u0438\u044F\u0445: \u043B\u0435\u043F\u043D\u0438\u043D\u0430 \u0438 \u043F\u0430\u043D\u043D\u043E, \u043C\u043E\u043B\u0434\u0438\u043D\u0433\u0438 \u0438 \u043F\u043B\u0438\u043D\u0442\u0443\u0441\u0430, \u043A\u043E\u043B\u043E\u043D\u043D\u044B \u0438 \u043A\u0430\u043F\u0438\u0442\u0435\u043B\u0438, \u0430\u0440\u043A\u0438 \u0438 \u043A\u0430\u0440\u043D\u0438\u0437\u044B, \u0440\u043E\u0437\u0435\u0442\u043A\u0438 \u0438 \u043C\u0435\u0434\u0430\u043B\u044C\u043E\u043D\u044B, \u043F\u044C\u0435\u0434\u0435\u0441\u0442\u0430\u043B\u044B \u0438 \u043F\u0438\u043B\u044F\u0441\u0442\u0440\u044B. \u0422\u0430\u043A\u0438\u0435 \u0430\u0440\u0445\u0438\u0442\u0435\u043A\u0442\u0443\u0440\u043D\u044B\u0435 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0434\u0430\u044E\u0442 \u0431\u043E\u043B\u044C\u0448\u043E\u0439 \u0434\u043B\u044F \u0442\u0432\u043E\u0440\u0447\u0435\u0441\u0442\u0432\u0430, \u0441 \u043D\u0438\u043C\u0438 \u043C\u043E\u0436\u043D\u043E \u0432\u043E\u043F\u043B\u043E\u0442\u0438\u0442\u044C \u0432 \u0436\u0438\u0437\u043D\u044C \u0441\u0430\u043C\u044B\u0435 \u0440\u0430\u0437\u043D\u044B\u0435 \u0438\u0434\u0435\u0438. \u0412\u0430\u0436\u043D\u0443\u044E \u0440\u043E\u043B\u044C \u043F\u0440\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u0434\u0435\u043A\u043E\u0440\u0430 \u0438\u0433\u0440\u0430\u0435\u0442 \u0446\u0432\u0435\u0442: \u0431\u0435\u043B\u0430\u044F \u043B\u0435\u043F\u043D\u0438\u043D\u0430 \u044D\u0444\u0444\u0435\u043A\u0442\u043D\u043E \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0441\u044F \u043F\u043E\u0447\u0442\u0438 \u0432 \u043B\u044E\u0431\u043E\u043C \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440\u0435, \u043D\u043E \u043F\u0440\u0438 \u0436\u0435\u043B\u0430\u043D\u0438\u0438 \u043E\u043D\u0430 \u043B\u0435\u0433\u043A\u043E \u0438 \u0431\u044B\u0441\u0442\u0440\u043E \u043A\u0440\u0430\u0441\u0438\u0442\u0441\u044F \u0432 \u043B\u044E\u0431\u043E\u0439 \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u044B\u0439 \u0432\u0430\u043C\u0438 \u0446\u0432\u0435\u0442.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.ProductList, {
         products: this.products
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u0435 \u043D\u0430\u043C\u0438 \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u043E\u0442\u043B\u0438\u0447\u0430\u044E\u0442\u0441\u044F \u0432\u044B\u0434\u0430\u044E\u0449\u0435\u0439\u0441\u044F \u0431\u0435\u043B\u0438\u0437\u043D\u043E\u0439, \u0447\u0435\u0442\u043A\u0438\u043C \u0440\u0438\u0441\u0443\u043D\u043A\u043E\u043C, \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u043F\u0440\u043E\u0447\u043D\u043E\u0441\u0442\u044C\u044E \u0438 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u043E\u0439 \u0432\u043B\u0430\u0433\u043E\u0441\u0442\u043E\u0439\u043A\u043E\u0441\u0442\u044C\u044E. \u041E\u043D\u0438 \u043B\u0435\u0433\u043A\u043E \u043C\u043E\u043D\u0442\u0438\u0440\u0443\u044E\u0442\u0441\u044F \u0438 \u0433\u043E\u0442\u043E\u0432\u044B \u043A \u043F\u043E\u043A\u0440\u0430\u0441\u043A\u0435 \u0432 \u043B\u044E\u0431\u043E\u0439 \u0446\u0432\u0435\u0442. \u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u043C \u0434\u0435\u043A\u043E\u0440 \u043A\u0430\u043A \u0438\u0437 \u0433\u0438\u043F\u0441\u0430, \u0442\u0430\u043A \u0438 \u0438\u0437 \u043F\u0435\u043D\u043E\u043F\u043E\u043B\u0438\u0443\u0440\u0435\u0442\u0430\u043D\u0430. \u0411\u0443\u0434\u0435\u043C \u0440\u0430\u0434\u044B \u043F\u043E\u043C\u043E\u0447\u044C \u0432\u0430\u043C \u0441 \u0432\u044B\u0431\u043E\u0440\u043E\u043C!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "#",
-        className: "footer-logo"
-      }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "footer-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/plaster"
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/fresco"
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/paint"
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/wallpaper"
-      }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/decor"
-      }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/project"
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/contact"
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-bottom clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "address"
-      }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "contacts"
-      }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-right"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        className: "inst-icon",
-        href: "https://www.instagram.com/artdeco_63/"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "inst-text"
-      }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "middle-el"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "copyright"
-      }, "\xA9 2021 Art Deco"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C\u044B\u0435 \u043D\u0430\u043C\u0438 \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u043E\u0442\u043B\u0438\u0447\u0430\u044E\u0442\u0441\u044F \u0432\u044B\u0434\u0430\u044E\u0449\u0435\u0439\u0441\u044F \u0431\u0435\u043B\u0438\u0437\u043D\u043E\u0439, \u0447\u0435\u0442\u043A\u0438\u043C \u0440\u0438\u0441\u0443\u043D\u043A\u043E\u043C, \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u043F\u0440\u043E\u0447\u043D\u043E\u0441\u0442\u044C\u044E \u0438 \u0443\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u043E\u0439 \u0432\u043B\u0430\u0433\u043E\u0441\u0442\u043E\u0439\u043A\u043E\u0441\u0442\u044C\u044E. \u041E\u043D\u0438 \u043B\u0435\u0433\u043A\u043E \u043C\u043E\u043D\u0442\u0438\u0440\u0443\u044E\u0442\u0441\u044F \u0438 \u0433\u043E\u0442\u043E\u0432\u044B \u043A \u043F\u043E\u043A\u0440\u0430\u0441\u043A\u0435 \u0432 \u043B\u044E\u0431\u043E\u0439 \u0446\u0432\u0435\u0442. \u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0432\u0430\u043C \u0434\u0435\u043A\u043E\u0440 \u043A\u0430\u043A \u0438\u0437 \u0433\u0438\u043F\u0441\u0430, \u0442\u0430\u043A \u0438 \u0438\u0437 \u043F\u0435\u043D\u043E\u043F\u043E\u043B\u0438\u0443\u0440\u0435\u0442\u0430\u043D\u0430. \u0411\u0443\u0434\u0435\u043C \u0440\u0430\u0434\u044B \u043F\u043E\u043C\u043E\u0447\u044C \u0432\u0430\u043C \u0441 \u0432\u044B\u0431\u043E\u0440\u043E\u043C!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
     }
   }]);
 
@@ -2662,8 +2649,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2685,6 +2673,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -2716,53 +2705,11 @@ var FrescoPage = /*#__PURE__*/function (_Component) {
         className: "text"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0424\u0440\u0435\u0441\u043A\u0438 \u043C\u043E\u0436\u043D\u043E \u0447\u0438\u0441\u0442\u0438\u0442\u044C \u0441 \u043C\u043E\u044E\u0449\u0438\u043C\u0438 \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430\u043C\u0438, \u043D\u0435 \u043E\u043F\u0430\u0441\u0430\u044F\u0441\u044C, \u0447\u0442\u043E \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0435 \u043F\u043E\u043A\u0440\u044B\u0442\u0438\u0435 \u043F\u043E\u0432\u0440\u0435\u0434\u0438\u0442\u0441\u044F. \u0412\u044B\u0441\u043E\u043A\u043E\u0435 \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u043E \u043F\u0435\u0447\u0430\u0442\u0438 \u0438 \u0445\u0443\u0434\u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445 \u043A\u0440\u0430\u0441\u043E\u043A \u043F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0444\u0440\u0435\u0441\u043A\u0443, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0431\u0443\u0434\u0435\u0442 \u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C\u0441\u044F \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E \u0434\u0430\u0436\u0435 \u0441\u043F\u0443\u0441\u0442\u044F \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.ProductList, {
         products: this.products
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0415\u0441\u043B\u0438 \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0441\u0442\u0438\u043B\u044C\u043D\u044B\u0439 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440, \u0442\u043E \u0434\u0430\u043D\u043D\u044B\u0439 \u0432\u0438\u0434 \u0434\u0435\u043A\u043E\u0440\u0430 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F \u043F\u043E \u0432\u043A\u0443\u0441\u0443 \u0432\u0441\u0435\u043C, \u0435\u0433\u043E \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0431\u0435\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u043D\u044B. \u0412\u044B\u0431\u043E\u0440 \u043E\u0441\u0442\u0430\u0435\u0442\u0441\u044F \u0437\u0430 \u0412\u0430\u043C\u0438, \u043B\u044E\u0431\u043E\u0432\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u043F\u043E\u043B\u043E\u0442\u043D\u043E \u0437\u043D\u0430\u043C\u0435\u043D\u0438\u0442\u043E\u0433\u043E \u0436\u0438\u0432\u043E\u043F\u0438\u0441\u0446\u0430, \u0430\u0431\u0441\u0442\u0440\u0430\u043A\u0442\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A, \u0446\u0432\u0435\u0442\u043E\u0447\u043D\u044B\u0439 \u043E\u0440\u043D\u0430\u043C\u0435\u043D\u0442, \u043F\u0435\u0439\u0437\u0430\u0436, \u0433\u043E\u0440\u043E\u0434\u0441\u043A\u0443\u044E \u0443\u043B\u043E\u0447\u043A\u0443 \u0438\u043B\u0438 \u043D\u0435\u0441\u0442\u0430\u0440\u0435\u044E\u0449\u0443\u044E \u043A\u043B\u0430\u0441\u0441\u0438\u043A\u0443. \u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0433\u043E\u0442\u043E\u0432\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C \u0441 \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u043C\u0438 \u0437\u0430\u043A\u0430\u0437\u0430\u043C\u0438!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "#",
-        className: "footer-logo"
-      }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "footer-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/plaster"
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/fresco"
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/paint"
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/wallpaper"
-      }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/decor"
-      }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/project"
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/contact"
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-bottom clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "address"
-      }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "contacts"
-      }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-right"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        className: "inst-icon",
-        href: "https://www.instagram.com/artdeco_63/"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "inst-text"
-      }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "middle-el"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "copyright"
-      }, "\xA9 2021 Art Deco"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0415\u0441\u043B\u0438 \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0441\u0442\u0438\u043B\u044C\u043D\u044B\u0439 \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440, \u0442\u043E \u0434\u0430\u043D\u043D\u044B\u0439 \u0432\u0438\u0434 \u0434\u0435\u043A\u043E\u0440\u0430 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F \u043F\u043E \u0432\u043A\u0443\u0441\u0443 \u0432\u0441\u0435\u043C, \u0435\u0433\u043E \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u0431\u0435\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u043D\u044B. \u0412\u044B\u0431\u043E\u0440 \u043E\u0441\u0442\u0430\u0435\u0442\u0441\u044F \u0437\u0430 \u0412\u0430\u043C\u0438, \u043B\u044E\u0431\u043E\u0432\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u043F\u043E\u043B\u043E\u0442\u043D\u043E \u0437\u043D\u0430\u043C\u0435\u043D\u0438\u0442\u043E\u0433\u043E \u0436\u0438\u0432\u043E\u043F\u0438\u0441\u0446\u0430, \u0430\u0431\u0441\u0442\u0440\u0430\u043A\u0442\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A, \u0446\u0432\u0435\u0442\u043E\u0447\u043D\u044B\u0439 \u043E\u0440\u043D\u0430\u043C\u0435\u043D\u0442, \u043F\u0435\u0439\u0437\u0430\u0436, \u0433\u043E\u0440\u043E\u0434\u0441\u043A\u0443\u044E \u0443\u043B\u043E\u0447\u043A\u0443 \u0438\u043B\u0438 \u043D\u0435\u0441\u0442\u0430\u0440\u0435\u044E\u0449\u0443\u044E \u043A\u043B\u0430\u0441\u0441\u0438\u043A\u0443. \u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u0433\u043E\u0442\u043E\u0432\u044B\u0435 \u0440\u0435\u0448\u0435\u043D\u0438\u044F, \u0430 \u0442\u0430\u043A\u0436\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u043C \u0441 \u0438\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u044B\u043C\u0438 \u0437\u0430\u043A\u0430\u0437\u0430\u043C\u0438!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
     }
   }]);
 
@@ -2784,7 +2731,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_MainHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MainHeader */ "./src/main/js/components/MainHeader/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+
 
 
 
@@ -2830,49 +2779,7 @@ var MainPage = function MainPage() {
     className: "reviews-about"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0417\u0430 \u043D\u0430\u0448\u0438\u043C\u0438 \u043F\u043B\u0435\u0447\u0430\u043C\u0438 \u0441\u043E\u0442\u043D\u0438 \u043A\u0440\u0443\u043F\u043D\u044B\u0445 \u043E\u0431\u044A\u0435\u043A\u0442\u043E\u0432 \u0441\u0442\u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430 \u0438 \u0442\u044B\u0441\u044F\u0447\u0438 \u0440\u043E\u0437\u043D\u0438\u0447\u043D\u044B\u0445 \u043A\u043B\u0438\u0435\u043D\u0442\u043E\u0432.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "reviews-item"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", null, "\u0422\u0435\u043A\u0441\u0442 \u043E\u0442\u0437\u044B\u0432\u0430", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("cite", null, "\u0410\u0432\u0442\u043E\u0440")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-top clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
-    className: "footer-logo"
-  }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "footer-nav clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-nav-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/plaster"
-  }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/fresco"
-  }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/paint"
-  }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/wallpaper"
-  }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/decor"
-  }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/project"
-  }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/contact"
-  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-bottom clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "address"
-  }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "contacts"
-  }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "inst-icon",
-    href: "https://www.instagram.com/artdeco_63/"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "inst-text"
-  }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "middle-el"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "copyright"
-  }, "\xA9 2021 Art Deco"))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", null, "\u0422\u0435\u043A\u0441\u0442 \u043E\u0442\u0437\u044B\u0432\u0430", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("cite", null, "\u0410\u0432\u0442\u043E\u0440")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
 };
 
 /***/ }),
@@ -2890,8 +2797,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2913,6 +2821,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -2946,53 +2855,11 @@ var PaintPage = /*#__PURE__*/function (_Component) {
         className: "text"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041F\u0440\u0438 \u043F\u043E\u043C\u043E\u0449\u0438 \u043A\u0440\u0430\u0441\u043A\u0438 \u043C\u043E\u0436\u043D\u043E \u0437\u0430\u043C\u0430\u0441\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u043C\u0435\u043B\u043A\u0438\u0435 \u0434\u0435\u0444\u0435\u043A\u0442\u044B \u0441\u0442\u0435\u043D, \u043E\u043D\u0430 \u043D\u0435 \u0431\u043E\u0438\u0442\u0441\u044F \u0432\u043B\u0430\u0436\u043D\u043E\u0439 \u0443\u0431\u043E\u0440\u043A\u0438 \u0438 \u043D\u0435 \u043F\u0440\u0438\u0432\u043B\u0435\u0447\u0435\u0442 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u0412\u0430\u0448\u0435\u0433\u043E \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u043F\u0438\u0442\u043E\u043C\u0446\u0430. \u0410 \u0435\u0449\u0435 \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C \u043E\u043D\u0430 \u043D\u0435 \u0442\u0435\u0440\u044F\u0435\u0442 \u044F\u0440\u043A\u043E\u0441\u0442\u0438! \u041D\u0435 \u0441\u0442\u043E\u0438\u0442 \u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C, \u0447\u0442\u043E \u0432 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0445 \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u044F\u0445 \u0432\u043E\u0437\u043D\u0438\u043A\u0430\u0435\u0442 \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E\u0441\u0442\u044C \u0438 \u0432 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u043E\u043C \u0441\u043E\u0441\u0442\u0430\u0432\u0435 \u043A\u0440\u0430\u0441\u043E\u043A, \u043C\u044B \u0441 \u0443\u0434\u043E\u0432\u043E\u043B\u044C\u0441\u0442\u0432\u0438\u0435\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u043C \u043F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u044B\u0439 \u0441\u043E\u0441\u0442\u0430\u0432.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.ProductList, {
         products: this.products
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041C\u044B \u043F\u043E\u043C\u043E\u0436\u0435\u043C \u0412\u0430\u043C \u0432\u044B\u0431\u0440\u0430\u0442\u044C \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u0443\u044E \u043A\u0440\u0430\u0441\u043A\u0443 \u0441 \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0438\u043C \u0441\u043E\u0441\u0442\u0430\u0432\u043E\u043C, \u0443\u0447\u0438\u0442\u044B\u0432\u0430\u044F \u0432\u0441\u0435 \u0412\u0430\u0448\u0438 \u043F\u043E\u0436\u0435\u043B\u0430\u043D\u0438\u044F \u0438 \u0446\u0435\u043B\u0438!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "#",
-        className: "footer-logo"
-      }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "footer-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/plaster"
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/fresco"
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/paint"
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/wallpaper"
-      }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/decor"
-      }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/project"
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/contact"
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-bottom clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "address"
-      }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "contacts"
-      }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-right"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        className: "inst-icon",
-        href: "https://www.instagram.com/artdeco_63/"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "inst-text"
-      }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "middle-el"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "copyright"
-      }, "\xA9 2021 Art Deco"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041C\u044B \u043F\u043E\u043C\u043E\u0436\u0435\u043C \u0412\u0430\u043C \u0432\u044B\u0431\u0440\u0430\u0442\u044C \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u0443\u044E \u043A\u0440\u0430\u0441\u043A\u0443 \u0441 \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0438\u043C \u0441\u043E\u0441\u0442\u0430\u0432\u043E\u043C, \u0443\u0447\u0438\u0442\u044B\u0432\u0430\u044F \u0432\u0441\u0435 \u0412\u0430\u0448\u0438 \u043F\u043E\u0436\u0435\u043B\u0430\u043D\u0438\u044F \u0438 \u0446\u0435\u043B\u0438!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
     }
   }]);
 
@@ -3014,8 +2881,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3037,6 +2905,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -3068,53 +2937,11 @@ var PlasterPage = /*#__PURE__*/function (_Component) {
         className: "text"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0435 \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0438 \u043C\u043E\u0433\u0443\u0442 \u043F\u0440\u0438\u0434\u0430\u0432\u0430\u0442\u044C \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u0438 \u044D\u0444\u0444\u0435\u043A\u0442 \u043A\u0430\u043C\u043D\u044F, \u043C\u0440\u0430\u043C\u043E\u0440\u0430, \u0434\u0435\u0440\u0435\u0432\u0430, \u043C\u0435\u0442\u0430\u043B\u043B\u0430, \u043A\u0430\u043C\u043D\u044F \u0438\u043B\u0438 \u0434\u0430\u0436\u0435 \u0442\u043A\u0430\u043D\u0438, \u0430 \u0448\u0438\u0440\u043E\u043A\u0438\u0439 \u0446\u0432\u0435\u0442\u043E\u0432\u043E\u0439 \u0441\u043F\u0435\u043A\u0442\u0440 \u0434\u0430\u0435\u0442 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u043B\u0435\u0433\u043A\u043E \u043E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u0438\u043D\u0442\u0435\u0440\u044C\u0435\u0440 \u0432 \u043B\u044E\u0431\u043E\u0439 \u043C\u043E\u043C\u0435\u043D\u0442: \u0434\u0435\u043A\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0435 \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u043E\u0439 \u0441\u0442\u0435\u043D\u044B \u043C\u043E\u0436\u043D\u043E \u0431\u044B\u0441\u0442\u0440\u043E \u043F\u0435\u0440\u0435\u043A\u0440\u0430\u0441\u0438\u0442\u044C. \u041E\u043D\u0438 \u043B\u0435\u0433\u043A\u043E \u043C\u043E\u044E\u0442\u0441\u044F \u0438 \u043D\u0435 \u0431\u043E\u044F\u0442\u0441\u044F \u043A\u043E\u0433\u0442\u0435\u0439 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445. \u042D\u0442\u043E \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u043D\u043E \u043B\u0443\u0447\u0448\u0438\u0439 \u0432\u0430\u0440\u0438\u0430\u043D\u0442, \u0435\u0441\u043B\u0438 \u0432 \u0441\u0435\u043C\u044C\u0435 \u0435\u0441\u0442\u044C \u0434\u0435\u0442\u0438 \u0438\u043B\u0438 \u043F\u0438\u0442\u043E\u043C\u0446\u044B. \u042D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u043E\u0441\u0442\u044C \u0438 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u043D\u043E\u0441\u0442\u044C \u2013 \u0441\u0438\u043B\u044C\u043D\u044B\u0435 \u0441\u0442\u043E\u0440\u043E\u043D\u044B \u044D\u0442\u043E\u0433\u043E \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u0430.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0428\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u0428\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.ProductList, {
         products: this.products
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0439 \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0438 \u0431\u0435\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u043D\u044B: \u043E\u0442 \u0443\u0440\u0431\u0430\u043D\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0441\u0442\u0438\u043B\u044F \u043B\u043E\u0444\u0442 \u0434\u043E \u0443\u0442\u043E\u043D\u0447\u0435\u043D\u043D\u043E\u0433\u043E \u043A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0430, \u043E\u0442 \u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u043C\u0440\u0430\u043C\u043E\u0440\u0430 \u0434\u043E \u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u0441\u043E\u0441\u0442\u0430\u0440\u0435\u043D\u043D\u044B\u0445 \u0441\u0442\u0435\u043D. \u0427\u0442\u043E \u0431\u044B \u0432\u044B \u043D\u0438 \u0437\u0430\u0434\u0443\u043C\u0430\u043B\u0438, \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E \u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u043F\u043E\u0434\u043E\u0439\u0434\u0435\u0442. \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043D\u0435\u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u043C\u0443 \u0432\u044B\u0431\u043E\u0440\u0443 \u0441\u043F\u043E\u0441\u043E\u0431\u043E\u0432 \u0435\u0435 \u043D\u0430\u043D\u0435\u0441\u0435\u043D\u0438\u044F, \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0432\u043E\u043F\u043B\u043E\u0442\u0438\u0442\u044C \u0432\u0441\u0435 \u0441\u0432\u043E\u0438 \u0438\u0434\u0435\u0438 \u0432 \u0436\u0438\u0437\u043D\u044C \u2013 \u043C\u044B \u0441 \u0443\u0434\u043E\u0432\u043E\u043B\u044C\u0441\u0442\u0432\u0438\u0435\u043C \u0432\u0430\u043C \u0432 \u044D\u0442\u043E\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u043C!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "#",
-        className: "footer-logo"
-      }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "footer-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/plaster"
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/fresco"
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/paint"
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/wallpaper"
-      }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/decor"
-      }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/project"
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/contact"
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-bottom clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "address"
-      }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "contacts"
-      }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-right"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        className: "inst-icon",
-        href: "https://www.instagram.com/artdeco_63/"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "inst-text"
-      }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "middle-el"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "copyright"
-      }, "\xA9 2021 Art Deco"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u0438 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0434\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u043E\u0439 \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0438 \u0431\u0435\u0437\u0433\u0440\u0430\u043D\u0438\u0447\u043D\u044B: \u043E\u0442 \u0443\u0440\u0431\u0430\u043D\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0441\u0442\u0438\u043B\u044F \u043B\u043E\u0444\u0442 \u0434\u043E \u0443\u0442\u043E\u043D\u0447\u0435\u043D\u043D\u043E\u0433\u043E \u043A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0430, \u043E\u0442 \u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u043C\u0440\u0430\u043C\u043E\u0440\u0430 \u0434\u043E \u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u0441\u043E\u0441\u0442\u0430\u0440\u0435\u043D\u043D\u044B\u0445 \u0441\u0442\u0435\u043D. \u0427\u0442\u043E \u0431\u044B \u0432\u044B \u043D\u0438 \u0437\u0430\u0434\u0443\u043C\u0430\u043B\u0438, \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430 \u0438\u0434\u0435\u0430\u043B\u044C\u043D\u043E \u0434\u043B\u044F \u044D\u0442\u043E\u0433\u043E \u043F\u043E\u0434\u043E\u0439\u0434\u0435\u0442. \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043D\u0435\u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u043C\u0443 \u0432\u044B\u0431\u043E\u0440\u0443 \u0441\u043F\u043E\u0441\u043E\u0431\u043E\u0432 \u0435\u0435 \u043D\u0430\u043D\u0435\u0441\u0435\u043D\u0438\u044F, \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0432\u043E\u043F\u043B\u043E\u0442\u0438\u0442\u044C \u0432\u0441\u0435 \u0441\u0432\u043E\u0438 \u0438\u0434\u0435\u0438 \u0432 \u0436\u0438\u0437\u043D\u044C \u2013 \u043C\u044B \u0441 \u0443\u0434\u043E\u0432\u043E\u043B\u044C\u0441\u0442\u0432\u0438\u0435\u043C \u0432\u0430\u043C \u0432 \u044D\u0442\u043E\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u043C!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
     }
   }]);
 
@@ -3136,7 +2963,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+
 
 
 
@@ -3144,74 +2973,38 @@ var ProjectPage = function ProjectPage() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__.default, {
     text: "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "container1"
+    className: "container1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/1/1.jpg"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/1/4.jpg"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/1/8.jpg"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/1/6.jpg"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/2.jpg"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    "class": "box1"
+    className: "box1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    alt: true,
     src: "img/4.jpg"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-top clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
-    className: "footer-logo"
-  }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "footer-nav clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-nav-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/plaster"
-  }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/fresco"
-  }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/paint"
-  }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/wallpaper"
-  }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/decor"
-  }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/project"
-  }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "/contact"
-  }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-bottom clearfix"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "address"
-  }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "contacts"
-  }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "footer-right"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "inst-icon",
-    href: "https://www.instagram.com/artdeco_63/"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "inst-text"
-  }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "middle-el"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "copyright"
-  }, "\xA9 2021 Art Deco"))));
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
 };
 
 /***/ }),
@@ -3229,8 +3022,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _components_DefaultHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultHeader */ "./src/main/js/components/DefaultHeader/index.js");
-/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
-/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/main/js/components/Footer/index.js");
+/* harmony import */ var _app__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../app */ "./src/main/js/app/index.js");
+/* harmony import */ var _resources_static_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resources/static/style.css */ "./src/main/resources/static/style.css");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3252,6 +3046,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -3283,53 +3078,11 @@ var WallpaperPage = /*#__PURE__*/function (_Component) {
         className: "text"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u0421\u0430\u043C\u044B\u043C\u0438 \u044D\u043A\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u044B\u043C\u0438 \u043F\u043E \u043F\u0440\u0430\u0432\u0443 \u0441\u0447\u0438\u0442\u0430\u044E\u0442\u0441\u044F \u0444\u043B\u0438\u0437\u0435\u043B\u0438\u043D\u043E\u0432\u044B\u0435 \u043E\u0431\u043E\u0438. \u041F\u043E\u043C\u0438\u043C\u043E \u0433\u0438\u043F\u043E\u0430\u043B\u043B\u0435\u0440\u0433\u0435\u043D\u043D\u043E\u0441\u0442\u0438, \u0432\u043E\u0437\u0434\u0443\u0445\u043E\u043F\u0440\u043E\u043D\u0438\u0446\u0430\u0435\u043C\u043E\u0441\u0442\u0438 \u0438 \u043F\u0440\u043E\u0447\u043D\u043E\u0441\u0442\u0438, \u043A \u0438\u0445 \u0434\u043E\u0441\u0442\u043E\u0438\u043D\u0441\u0442\u0432\u0430\u043C \u043E\u0442\u043D\u043E\u0441\u044F\u0442 \u0442\u0430\u043A\u0436\u0435 \u043B\u0435\u0433\u043A\u043E\u0441\u0442\u044C \u0438 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u043F\u043E\u043A\u043B\u0435\u0439\u043A\u0438, \u0442\u0430\u043A \u043A\u0430\u043A \u043A\u043B\u0435\u0439 \u043D\u0430\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E \u043D\u0430 \u0441\u0442\u0435\u043D\u0443, \u0447\u0442\u043E \u0443\u043F\u0440\u043E\u0449\u0430\u0435\u0442 \u043C\u043E\u043D\u0442\u0430\u0436 \u0438 \u044D\u043A\u043E\u043D\u043E\u043C\u0438\u0442 \u0432\u0440\u0435\u043C\u044F. \u0422\u0430\u043A\u0438\u0435 \u043E\u0431\u043E\u0438 \u043D\u0435 \u0441\u0436\u0438\u043C\u0430\u044E\u0442\u0441\u044F \u043F\u043E\u0441\u043B\u0435 \u0432\u044B\u0441\u044B\u0445\u0430\u043D\u0438\u044F, \u0441\u043A\u0440\u044B\u0432\u0430\u044E\u0442 \u043C\u0438\u043A\u0440\u043E\u0442\u0440\u0435\u0449\u0438\u043D\u044B, \u043D\u0435 \u0440\u0432\u0443\u0442\u0441\u044F \u0438 \u043D\u0435 \u0434\u0435\u0444\u043E\u0440\u043C\u0438\u0440\u0443\u044E\u0442\u0441\u044F \u043F\u0440\u0438 \u0443\u0441\u0430\u0434\u043A\u0435 \u0441\u0442\u0435\u043D \u043D\u043E\u0432\u043E\u0441\u0442\u0440\u043E\u0435\u043A.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_2__.ProductList, {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_app__WEBPACK_IMPORTED_MODULE_3__.ProductList, {
         products: this.products
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
         className: "text"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u043E\u0431\u043E\u0438 \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u0441 \u0441\u0430\u043C\u044B\u043C\u0438 \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u043C\u0438 \u043F\u0440\u0438\u043D\u0442\u0430\u043C\u0438, \u0438 \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0439\u0442\u0438 \u0447\u0442\u043E-\u0442\u043E \u0434\u043B\u044F \u0441\u0435\u0431\u044F, \u043A\u0430\u043A\u043E\u0439 \u0431\u044B \u0434\u0438\u0437\u0430\u0439\u043D \u0432\u044B \u043D\u0438 \u0432\u044B\u0431\u0440\u0430\u043B\u0438: \u043E\u0442 \u043A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0431\u0430\u0440\u043E\u043A\u043A\u043E \u0434\u043E \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E \u043B\u043E\u0444\u0442\u0430. \u041F\u0440\u043E\u0434\u0443\u043A\u0446\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u043C\u044B \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C, \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0440\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u043C \u0438 \u043C\u0435\u0436\u0434\u0443\u043D\u0430\u0440\u043E\u0434\u043D\u044B\u043C \u0441\u0430\u043D\u0438\u0442\u0430\u0440\u043D\u044B\u043C \u0442\u0440\u0435\u0431\u043E\u0432\u0430\u043D\u0438\u044F\u043C \u0438 \u0441\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u0430\u043C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0430.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-top clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "#",
-        className: "footer-logo"
-      }, "Art Deco"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-        className: "footer-nav clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-nav-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/plaster"
-      }, "\u0414\u0435\u043A\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0430\u044F \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0430")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/fresco"
-      }, "\u0424\u0440\u0435\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/paint"
-      }, "\u041A\u0440\u0430\u0441\u043A\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/wallpaper"
-      }, "\u041E\u0431\u043E\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/decor"
-      }, "\u0414\u0435\u043A\u043E\u0440")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/project"
-      }, "\u041D\u0430\u0448\u0438 \u043F\u0440\u043E\u0435\u043A\u0442\u044B")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        href: "/contact"
-      }, "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-bottom clearfix"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-left"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "address"
-      }, "\u0433. \u0421\u0430\u043C\u0430\u0440\u0430, \u0443\u043B.\u041D\u043E\u0432\u043E-\u0421\u0430\u0434\u043E\u0432\u0430\u044F, \u0434. 163"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "contacts"
-      }, "\u0442\u0435\u043B. +7 (846) 248-08-78", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "e-mail: artdeco63@inbox.ru")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-        className: "footer-right"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-        className: "inst-icon",
-        href: "https://www.instagram.com/artdeco_63/"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "inst-text"
-      }, "artdeco_63"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-        className: "middle-el"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-        className: "copyright"
-      }, "\xA9 2021 Art Deco"))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u041C\u044B \u043F\u0440\u0435\u0434\u043B\u0430\u0433\u0430\u0435\u043C \u043E\u0431\u043E\u0438 \u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u0441 \u0441\u0430\u043C\u044B\u043C\u0438 \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u043C\u0438 \u043F\u0440\u0438\u043D\u0442\u0430\u043C\u0438, \u0438 \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0439\u0442\u0438 \u0447\u0442\u043E-\u0442\u043E \u0434\u043B\u044F \u0441\u0435\u0431\u044F, \u043A\u0430\u043A\u043E\u0439 \u0431\u044B \u0434\u0438\u0437\u0430\u0439\u043D \u0432\u044B \u043D\u0438 \u0432\u044B\u0431\u0440\u0430\u043B\u0438: \u043E\u0442 \u043A\u043B\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0431\u0430\u0440\u043E\u043A\u043A\u043E \u0434\u043E \u0441\u043E\u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E\u0433\u043E \u043B\u043E\u0444\u0442\u0430. \u041F\u0440\u043E\u0434\u0443\u043A\u0446\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u043C\u044B \u043F\u0440\u0435\u0434\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u043C, \u0441\u043E\u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0440\u043E\u0441\u0441\u0438\u0439\u0441\u043A\u0438\u043C \u0438 \u043C\u0435\u0436\u0434\u0443\u043D\u0430\u0440\u043E\u0434\u043D\u044B\u043C \u0441\u0430\u043D\u0438\u0442\u0430\u0440\u043D\u044B\u043C \u0442\u0440\u0435\u0431\u043E\u0432\u0430\u043D\u0438\u044F\u043C \u0438 \u0441\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u0430\u043C \u043A\u0430\u0447\u0435\u0441\u0442\u0432\u0430.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__.default, null));
     }
   }]);
 
@@ -3431,6 +3184,39 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".header-default {\n  background: url("
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Footer/style.scss":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/Footer/style.scss ***!
+  \*******************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _resources_static_img_icons_inst1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../resources/static/img/icons/inst1.png */ "./src/main/resources/static/img/icons/inst1.png");
+// Imports
+
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_resources_static_img_icons_inst1_png__WEBPACK_IMPORTED_MODULE_3__.default);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".footer .footer__copyright, .footer .footer__content {\n  color: rgba(225, 225, 225, 0.5);\n  font-size: 14px;\n}\n\n.footer {\n  background-color: black;\n  padding-top: 30px;\n  padding-bottom: 20px;\n}\n.footer .footer__nav {\n  border-top: 1px solid white;\n}\n.footer .footer__nav li:hover {\n  text-shadow: none;\n}\n.footer .footer__content {\n  display: flex;\n  justify-content: space-between;\n  padding: 0 20px;\n}\n.footer .footer__content .footer__instagram {\n  display: flex;\n  align-items: center;\n}\n.footer .footer__content .footer__instagram .footer__instagram-icon {\n  opacity: 50%;\n  height: 40px;\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n.footer .footer__content .footer__instagram .footer__instagram-icon:hover {\n  opacity: 100%;\n}\n.footer .footer__copyright {\n  margin: 0;\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://./src/main/js/components/Footer/style.scss"],"names":[],"mappings":"AAAA;EACE,+BAAA;EACA,eAAA;AACF;;AAEA;EACE,uBAAA;EACA,iBAAA;EACA,oBAAA;AACF;AACE;EACE,2BAAA;AACJ;AAEM;EACE,iBAAA;AAAR;AAIE;EACE,aAAA;EACA,8BAAA;EACA,eAAA;AAFJ;AAKI;EACE,aAAA;EACA,mBAAA;AAHN;AAKM;EACE,YAAA;EACA,YAAA;EACA,gDAAA;AAHR;AAKQ;EACE,aAAA;AAHV;AAQE;EACE,SAAA;EACA,kBAAA;AANJ","sourcesContent":["%color-props {\r\n  color: rgba(225, 225, 225, 0.5);\r\n  font-size: 14px;\r\n}\r\n\r\n.footer {\r\n  background-color: black;\r\n  padding-top: 30px;\r\n  padding-bottom: 20px;\r\n\r\n  .footer__nav {\r\n    border-top: 1px solid white;\r\n\r\n    li {\r\n      &:hover {\r\n        text-shadow: none;\r\n      }\r\n    }\r\n  }\r\n  .footer__content {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    padding: 0 20px;\r\n    @extend %color-props;\r\n\r\n    .footer__instagram {\r\n      display: flex;\r\n      align-items: center;\r\n\r\n      .footer__instagram-icon {\r\n        opacity: 50%;\r\n        height: 40px;\r\n        content: url(\"../../../resources/static/img/icons/inst1.png\");\r\n\r\n        &:hover {\r\n          opacity: 100%;\r\n        }\r\n      }\r\n    }\r\n  }\r\n  .footer__copyright {\r\n    margin: 0;\r\n    text-align: center;\r\n    @extend %color-props;\r\n  }\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/MainHeader/style.scss":
 /*!***********************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main/js/components/MainHeader/style.scss ***!
@@ -3506,18 +3292,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_inst1_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/inst1.png */ "./src/main/resources/static/img/inst1.png");
 // Imports
 
 
-
-
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_img_inst1_png__WEBPACK_IMPORTED_MODULE_3__.default);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".container {\r\n    width: 100%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.clearfix::after {\r\n    content: '';\r\n    display: table;\r\n    clear: both;\r\n}\r\n\r\n/*HEADER------------------------------------------------*/\r\n/*header {*/\r\n/*    background-color:darkslategray;*/\r\n/*    background-image: url(\"img/back.jpg\");*/\r\n/*    background-attachment: fixed;*/\r\n/*    background-position:center;*/\r\n/*    color: white;*/\r\n/*    height: 100vh;*/\r\n/*}*/\r\n\r\n/*.header-logo, .footer-logo {*/\r\n/*    margin: 0;*/\r\n/*    padding: 0% 1.07% 0% 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    width: 15%;*/\r\n/*    float: left;*/\r\n/*}*/\r\n\r\n/*.header-logo a, .footer-logo {*/\r\n/*    display: block;*/\r\n/*    font-size: 300%;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*    line-height: 55px;*/\r\n/*    text-decoration: none;*/\r\n/*    color: white;*/\r\n\r\n/*    margin: 0;*/\r\n/*    padding: 10px 0 0 20px;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-logo::after {*/\r\n/*    display: block;*/\r\n/*    content: '';*/\r\n/*    border-right: 2px solid white;*/\r\n/*    height: 21px;*/\r\n/*    width: 100%;*/\r\n/*    position: relative;*/\r\n/*    top: -21px;*/\r\n/*    left: 9px;*/\r\n/*    transform: skewX(-45deg);*/\r\n/*}*/\r\n\r\n/*.header-nav, .footer-nav {*/\r\n/*    list-style: none;    */\r\n/*    margin: 0;*/\r\n/*    padding: 20px 20px 5px 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    float: right;*/\r\n/*    width: 85%;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-nav-container, .footer-nav-container {*/\r\n/*    float: right;*/\r\n/*}*/\r\n\r\n/*.header-nav li, .footer-nav li {*/\r\n/*    float: left;*/\r\n/*    margin-left: 20px;*/\r\n/*}*/\r\n\r\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\r\n/*    margin-left: 0;*/\r\n/*}*/\r\n\r\n/*.header-nav a, .footer-nav a {*/\r\n/*    color: white;*/\r\n/*    opacity: 70%;*/\r\n/*    text-decoration: none;*/\r\n/*    text-transform: uppercase;*/\r\n/*    font-family: 'Century Gothic', serif;*/\r\n/*}*/\r\n\r\n/*.header-nav a:hover {*/\r\n/*    opacity: 100%;*/\r\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\r\n/*}*/\r\n\r\n/*.header-text {*/\r\n/*    padding: 0;*/\r\n/*    margin-top: 25vh;*/\r\n/*    font-size: 86px;*/\r\n/*    text-align: center;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*}*/\r\n\r\n/*MAIN------------------------------------------------*/\r\nmain {\r\n    background-color:#3B3B3E;\r\n    background-position:center;\r\n    color: white;\r\n}\r\n.about-container{\r\n\tbackground-color: white;\r\n\tmargin-left: 400px;\r\n\tmargin-right: 100px;\r\n\t\r\n}\r\n.about{\r\n\tdisplay: block;\r\n    font-family: Cormorant Garamond;\r\n\tfont-style: normal;\r\n\tfont-weight: normal;\r\n\tfont-size: 50px;\r\n\tline-height: 61px;\r\n\r\n    text-decoration: none;\r\n    color: black;\r\n\r\n    margin: 0px;\r\n    padding: 50px 50px 50px 100px;\r\n}\r\n.box{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-left:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.text{\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.box_right{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-right:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n\r\n.container1 {\r\n    display: flex;\r\n    width: 100%;\r\n    padding: 4% 2%;\r\n    box-sizing: border-box;\r\n    height: 100vh;\r\n  }\r\n  \r\n  .box1 {\r\n    flex: 1;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    margin: 0 2%;\r\n    box-shadow: 0 20px 30px rgba(0,0,0,.1);\r\n    line-height: 0;\r\n  }\r\n  \r\n  .box1 > img {\r\n    width: 200%;\r\n    height: calc(100% - 10vh);\r\n    object-fit: cover; \r\n    transition: .5s;\r\n  }\r\n  \r\n  .box1 > span {\r\n    font-size: 3.8vh;\r\n    display: block;\r\n    text-align: center;\r\n    height: 10vh;\r\n    line-height: 2.6;\r\n  }\r\n  \r\n  .box1:hover { flex: 1 1 50%; }\r\n  .box1:hover > img {\r\n    width: 100%;\r\n    height: 100%;\r\n  }\r\n  \r\n\r\n   \r\n/*FOOTER------------------------------------------------*/\r\nfooter {\r\n    margin: 0;\r\n    padding: 30px 0 10px 0px;\r\n    background-color: #3b3b3e;\r\n    color: white;\r\n}\r\n\r\n.footer-logo, .footer-nav {\r\n    border: 0;\r\n    padding: 0;\r\n}\r\n\r\n.footer-logo {\r\n    font-size: 35px;\r\n    line-height: 45px;\r\n    padding-left: 20px;\r\n}\r\n\r\n.footer-nav {\r\n    padding: 15px 20px 0 0;\r\n}\r\n\r\n.footer-nav a:hover {\r\n    opacity: 100%;\r\n}\r\n\r\n.footer-top {\r\n    border-bottom: 1px solid white;\r\n    border-top: 1px solid white;\r\n}\r\n\r\n.footer-bottom {\r\n    font-family: 'Century Gothic', serif;\r\n    font-size: 14px;\r\n    color: rgba(255, 255, 255, 0.5);\r\n    padding: 20px;\r\n    padding-bottom: 0;\r\n    margin: 0;\r\n}\r\n\r\n.footer-left {\r\n    float: left;\r\n    height: 100px;\r\n}\r\n\r\n.footer-right {\r\n    float: right;\r\n    height: 100px;\r\n}\r\n\r\n.middle-el {\r\n    display: inline-block;\r\n    height: 100%;\r\n    width: 0px;\r\n    overflow: hidden;\r\n    vertical-align: middle;\r\n}\r\n\r\n.inst-text, .inst-icon {\r\n    display: inline-block;\r\n}\r\n\r\n.inst-icon {\r\n\theight: 40px;\r\n\tcontent: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n.footer-right img, span {\r\n    vertical-align: middle;    \r\n}\r\n\r\n.footer-right img {\r\n    opacity: 50%;\r\n}\r\n\r\n.footer-right img:hover {\r\n    opacity:100%;\r\n}\r\n\r\n.copyright {\r\n    padding: 0;\r\n    margin: 0;\r\n    clear: both;\r\n    text-align: center;\r\n}", "",{"version":3,"sources":["webpack://./src/main/resources/static/style.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,cAAc;AAClB;;AAEA;IACI,WAAW;IACX,cAAc;IACd,WAAW;AACf;;AAEA,yDAAyD;AACzD,WAAW;AACX,sCAAsC;AACtC,6CAA6C;AAC7C,oCAAoC;AACpC,kCAAkC;AAClC,oBAAoB;AACpB,qBAAqB;AACrB,IAAI;;AAEJ,+BAA+B;AAC/B,iBAAiB;AACjB,8BAA8B;AAC9B,8BAA8B;AAC9B,kBAAkB;AAClB,mBAAmB;AACnB,IAAI;;AAEJ,iCAAiC;AACjC,sBAAsB;AACtB,uBAAuB;AACvB,wBAAwB;AACxB,qCAAqC;AACrC,yBAAyB;AACzB,6BAA6B;AAC7B,oBAAoB;;AAEpB,iBAAiB;AACjB,8BAA8B;AAC9B,sCAAsC;AACtC,IAAI;;AAEJ,wBAAwB;AACxB,sBAAsB;AACtB,mBAAmB;AACnB,qCAAqC;AACrC,oBAAoB;AACpB,mBAAmB;AACnB,0BAA0B;AAC1B,kBAAkB;AAClB,iBAAiB;AACjB,gCAAgC;AAChC,IAAI;;AAEJ,6BAA6B;AAC7B,4BAA4B;AAC5B,iBAAiB;AACjB,gCAAgC;AAChC,8BAA8B;AAC9B,oBAAoB;AACpB,kBAAkB;AAClB,sCAAsC;AACtC,IAAI;;AAEJ,iDAAiD;AACjD,oBAAoB;AACpB,IAAI;;AAEJ,mCAAmC;AACnC,mBAAmB;AACnB,yBAAyB;AACzB,IAAI;;AAEJ,2DAA2D;AAC3D,sBAAsB;AACtB,IAAI;;AAEJ,iCAAiC;AACjC,oBAAoB;AACpB,oBAAoB;AACpB,6BAA6B;AAC7B,iCAAiC;AACjC,4CAA4C;AAC5C,IAAI;;AAEJ,wBAAwB;AACxB,qBAAqB;AACrB,wFAAwF;AACxF,IAAI;;AAEJ,iBAAiB;AACjB,kBAAkB;AAClB,wBAAwB;AACxB,uBAAuB;AACvB,0BAA0B;AAC1B,wBAAwB;AACxB,qCAAqC;AACrC,IAAI;;AAEJ,uDAAuD;AACvD;IACI,wBAAwB;IACxB,0BAA0B;IAC1B,YAAY;AAChB;AACA;CACC,uBAAuB;CACvB,kBAAkB;CAClB,mBAAmB;;AAEpB;AACA;CACC,cAAc;IACX,+BAA+B;CAClC,kBAAkB;CAClB,mBAAmB;CACnB,eAAe;CACf,iBAAiB;;IAEd,qBAAqB;IACrB,YAAY;;IAEZ,WAAW;IACX,6BAA6B;AACjC;AACA;IACI,WAAW;IACX,aAAa;IACb,SAAS;IACT,iBAAiB;IACjB,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;AACA;IACI,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;AACA;IACI,WAAW;IACX,aAAa;IACb,SAAS;IACT,kBAAkB;IAClB,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;;AAEA;IACI,aAAa;IACb,WAAW;IACX,cAAc;IACd,sBAAsB;IACtB,aAAa;EACf;;EAEA;IACE,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,YAAY;IACZ,sCAAsC;IACtC,cAAc;EAChB;;EAEA;IACE,WAAW;IACX,yBAAyB;IACzB,iBAAiB;IACjB,eAAe;EACjB;;EAEA;IACE,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,YAAY;IACZ,gBAAgB;EAClB;;EAEA,cAAc,aAAa,EAAE;EAC7B;IACE,WAAW;IACX,YAAY;EACd;;;;AAIF,yDAAyD;AACzD;IACI,SAAS;IACT,wBAAwB;IACxB,yBAAyB;IACzB,YAAY;AAChB;;AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,eAAe;IACf,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,8BAA8B;IAC9B,2BAA2B;AAC/B;;AAEA;IACI,oCAAoC;IACpC,eAAe;IACf,+BAA+B;IAC/B,aAAa;IACb,iBAAiB;IACjB,SAAS;AACb;;AAEA;IACI,WAAW;IACX,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,aAAa;AACjB;;AAEA;IACI,qBAAqB;IACrB,YAAY;IACZ,UAAU;IACV,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,qBAAqB;AACzB;;AAEA;CACC,YAAY;CACZ,gDAA6B;AAC9B;;AAEA;IACI,sBAAsB;AAC1B;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,UAAU;IACV,SAAS;IACT,WAAW;IACX,kBAAkB;AACtB","sourcesContent":[".container {\r\n    width: 100%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.clearfix::after {\r\n    content: '';\r\n    display: table;\r\n    clear: both;\r\n}\r\n\r\n/*HEADER------------------------------------------------*/\r\n/*header {*/\r\n/*    background-color:darkslategray;*/\r\n/*    background-image: url(\"img/back.jpg\");*/\r\n/*    background-attachment: fixed;*/\r\n/*    background-position:center;*/\r\n/*    color: white;*/\r\n/*    height: 100vh;*/\r\n/*}*/\r\n\r\n/*.header-logo, .footer-logo {*/\r\n/*    margin: 0;*/\r\n/*    padding: 0% 1.07% 0% 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    width: 15%;*/\r\n/*    float: left;*/\r\n/*}*/\r\n\r\n/*.header-logo a, .footer-logo {*/\r\n/*    display: block;*/\r\n/*    font-size: 300%;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*    line-height: 55px;*/\r\n/*    text-decoration: none;*/\r\n/*    color: white;*/\r\n\r\n/*    margin: 0;*/\r\n/*    padding: 10px 0 0 20px;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-logo::after {*/\r\n/*    display: block;*/\r\n/*    content: '';*/\r\n/*    border-right: 2px solid white;*/\r\n/*    height: 21px;*/\r\n/*    width: 100%;*/\r\n/*    position: relative;*/\r\n/*    top: -21px;*/\r\n/*    left: 9px;*/\r\n/*    transform: skewX(-45deg);*/\r\n/*}*/\r\n\r\n/*.header-nav, .footer-nav {*/\r\n/*    list-style: none;    */\r\n/*    margin: 0;*/\r\n/*    padding: 20px 20px 5px 0;*/\r\n/*    box-sizing: border-box;*/\r\n/*    float: right;*/\r\n/*    width: 85%;*/\r\n/*    border-bottom: 1px solid white;*/\r\n/*}*/\r\n\r\n/*.header-nav-container, .footer-nav-container {*/\r\n/*    float: right;*/\r\n/*}*/\r\n\r\n/*.header-nav li, .footer-nav li {*/\r\n/*    float: left;*/\r\n/*    margin-left: 20px;*/\r\n/*}*/\r\n\r\n/*.header-nav li:first-child, .footer-nav li:first-child {*/\r\n/*    margin-left: 0;*/\r\n/*}*/\r\n\r\n/*.header-nav a, .footer-nav a {*/\r\n/*    color: white;*/\r\n/*    opacity: 70%;*/\r\n/*    text-decoration: none;*/\r\n/*    text-transform: uppercase;*/\r\n/*    font-family: 'Century Gothic', serif;*/\r\n/*}*/\r\n\r\n/*.header-nav a:hover {*/\r\n/*    opacity: 100%;*/\r\n/*    text-shadow: white 0 0 15px, white 0 0 10px, rgba(255, 255, 255, 0.555) 0 0 10px;*/\r\n/*}*/\r\n\r\n/*.header-text {*/\r\n/*    padding: 0;*/\r\n/*    margin-top: 25vh;*/\r\n/*    font-size: 86px;*/\r\n/*    text-align: center;*/\r\n/*    font-weight: 400;*/\r\n/*    font-family: 'Forum', cursive;*/\r\n/*}*/\r\n\r\n/*MAIN------------------------------------------------*/\r\nmain {\r\n    background-color:#3B3B3E;\r\n    background-position:center;\r\n    color: white;\r\n}\r\n.about-container{\r\n\tbackground-color: white;\r\n\tmargin-left: 400px;\r\n\tmargin-right: 100px;\r\n\t\r\n}\r\n.about{\r\n\tdisplay: block;\r\n    font-family: Cormorant Garamond;\r\n\tfont-style: normal;\r\n\tfont-weight: normal;\r\n\tfont-size: 50px;\r\n\tline-height: 61px;\r\n\r\n    text-decoration: none;\r\n    color: black;\r\n\r\n    margin: 0px;\r\n    padding: 50px 50px 50px 100px;\r\n}\r\n.box{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-left:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.text{\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.box_right{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-right:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n\r\n.container1 {\r\n    display: flex;\r\n    width: 100%;\r\n    padding: 4% 2%;\r\n    box-sizing: border-box;\r\n    height: 100vh;\r\n  }\r\n  \r\n  .box1 {\r\n    flex: 1;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    margin: 0 2%;\r\n    box-shadow: 0 20px 30px rgba(0,0,0,.1);\r\n    line-height: 0;\r\n  }\r\n  \r\n  .box1 > img {\r\n    width: 200%;\r\n    height: calc(100% - 10vh);\r\n    object-fit: cover; \r\n    transition: .5s;\r\n  }\r\n  \r\n  .box1 > span {\r\n    font-size: 3.8vh;\r\n    display: block;\r\n    text-align: center;\r\n    height: 10vh;\r\n    line-height: 2.6;\r\n  }\r\n  \r\n  .box1:hover { flex: 1 1 50%; }\r\n  .box1:hover > img {\r\n    width: 100%;\r\n    height: 100%;\r\n  }\r\n  \r\n\r\n   \r\n/*FOOTER------------------------------------------------*/\r\nfooter {\r\n    margin: 0;\r\n    padding: 30px 0 10px 0px;\r\n    background-color: #3b3b3e;\r\n    color: white;\r\n}\r\n\r\n.footer-logo, .footer-nav {\r\n    border: 0;\r\n    padding: 0;\r\n}\r\n\r\n.footer-logo {\r\n    font-size: 35px;\r\n    line-height: 45px;\r\n    padding-left: 20px;\r\n}\r\n\r\n.footer-nav {\r\n    padding: 15px 20px 0 0;\r\n}\r\n\r\n.footer-nav a:hover {\r\n    opacity: 100%;\r\n}\r\n\r\n.footer-top {\r\n    border-bottom: 1px solid white;\r\n    border-top: 1px solid white;\r\n}\r\n\r\n.footer-bottom {\r\n    font-family: 'Century Gothic', serif;\r\n    font-size: 14px;\r\n    color: rgba(255, 255, 255, 0.5);\r\n    padding: 20px;\r\n    padding-bottom: 0;\r\n    margin: 0;\r\n}\r\n\r\n.footer-left {\r\n    float: left;\r\n    height: 100px;\r\n}\r\n\r\n.footer-right {\r\n    float: right;\r\n    height: 100px;\r\n}\r\n\r\n.middle-el {\r\n    display: inline-block;\r\n    height: 100%;\r\n    width: 0px;\r\n    overflow: hidden;\r\n    vertical-align: middle;\r\n}\r\n\r\n.inst-text, .inst-icon {\r\n    display: inline-block;\r\n}\r\n\r\n.inst-icon {\r\n\theight: 40px;\r\n\tcontent: url(\"img/inst1.png\");\r\n}\r\n\r\n.footer-right img, span {\r\n    vertical-align: middle;    \r\n}\r\n\r\n.footer-right img {\r\n    opacity: 50%;\r\n}\r\n\r\n.footer-right img:hover {\r\n    opacity:100%;\r\n}\r\n\r\n.copyright {\r\n    padding: 0;\r\n    margin: 0;\r\n    clear: both;\r\n    text-align: center;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".container {\r\n    width: 100%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.clearfix::after {\r\n    content: '';\r\n    display: table;\r\n    clear: both;\r\n}\r\n\r\n/*MAIN------------------------------------------------*/\r\nmain {\r\n    background-color:#3B3B3E;\r\n    background-position:center;\r\n    color: white;\r\n}\r\n.about-container{\r\n\tbackground-color: white;\r\n\tmargin-left: 400px;\r\n\tmargin-right: 100px;\r\n\t\r\n}\r\n.about{\r\n\tdisplay: block;\r\n\r\n    font-family: Cormorant Garamond;\r\n\tfont-style: normal;\r\n\tfont-weight: normal;\r\n\tfont-size: 50px;\r\n\tline-height: 61px;\r\n\r\n    text-decoration: none;\r\n    color: black;\r\n\r\n    margin: 0;\r\n    padding: 50px 50px 50px 100px;\r\n}\r\n.box{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-left:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.text{\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.box_right{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-right:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n\r\n.container1 {\r\n    display: flex;\r\n    width: 100%;\r\n    padding: 4% 2%;\r\n    box-sizing: border-box;\r\n    height: 100vh;\r\n  }\r\n  \r\n  .box1 {\r\n    flex: 1;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    margin: 0 2%;\r\n    box-shadow: 0 20px 30px rgba(0,0,0,.1);\r\n    line-height: 0;\r\n  }\r\n  \r\n  .box1 > img {\r\n    width: 200%;\r\n    height: calc(100% - 10vh);\r\n    object-fit: cover; \r\n    transition: .5s;\r\n  }\r\n  \r\n  .box1 > span {\r\n    font-size: 3.8vh;\r\n    display: block;\r\n    text-align: center;\r\n    height: 10vh;\r\n    line-height: 2.6;\r\n  }\r\n  \r\n  .box1:hover { flex: 1 1 50%; }\r\n  .box1:hover > img {\r\n    width: 100%;\r\n    height: 100%;\r\n  }", "",{"version":3,"sources":["webpack://./src/main/resources/static/style.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,cAAc;AAClB;;AAEA;IACI,WAAW;IACX,cAAc;IACd,WAAW;AACf;;AAEA,uDAAuD;AACvD;IACI,wBAAwB;IACxB,0BAA0B;IAC1B,YAAY;AAChB;AACA;CACC,uBAAuB;CACvB,kBAAkB;CAClB,mBAAmB;;AAEpB;AACA;CACC,cAAc;;IAEX,+BAA+B;CAClC,kBAAkB;CAClB,mBAAmB;CACnB,eAAe;CACf,iBAAiB;;IAEd,qBAAqB;IACrB,YAAY;;IAEZ,SAAS;IACT,6BAA6B;AACjC;AACA;IACI,WAAW;IACX,aAAa;IACb,SAAS;IACT,iBAAiB;IACjB,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;AACA;IACI,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;AACA;IACI,WAAW;IACX,aAAa;IACb,SAAS;IACT,kBAAkB;IAClB,gBAAgB;IAChB,iBAAiB;IACjB,oCAAoC;AACxC;;AAEA;IACI,aAAa;IACb,WAAW;IACX,cAAc;IACd,sBAAsB;IACtB,aAAa;EACf;;EAEA;IACE,OAAO;IACP,gBAAgB;IAChB,eAAe;IACf,YAAY;IACZ,sCAAsC;IACtC,cAAc;EAChB;;EAEA;IACE,WAAW;IACX,yBAAyB;IACzB,iBAAiB;IACjB,eAAe;EACjB;;EAEA;IACE,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,YAAY;IACZ,gBAAgB;EAClB;;EAEA,cAAc,aAAa,EAAE;EAC7B;IACE,WAAW;IACX,YAAY;EACd","sourcesContent":[".container {\r\n    width: 100%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.clearfix::after {\r\n    content: '';\r\n    display: table;\r\n    clear: both;\r\n}\r\n\r\n/*MAIN------------------------------------------------*/\r\nmain {\r\n    background-color:#3B3B3E;\r\n    background-position:center;\r\n    color: white;\r\n}\r\n.about-container{\r\n\tbackground-color: white;\r\n\tmargin-left: 400px;\r\n\tmargin-right: 100px;\r\n\t\r\n}\r\n.about{\r\n\tdisplay: block;\r\n\r\n    font-family: Cormorant Garamond;\r\n\tfont-style: normal;\r\n\tfont-weight: normal;\r\n\tfont-size: 50px;\r\n\tline-height: 61px;\r\n\r\n    text-decoration: none;\r\n    color: black;\r\n\r\n    margin: 0;\r\n    padding: 50px 50px 50px 100px;\r\n}\r\n.box{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-left:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.text{\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n.box_right{\r\n    width:400px;\r\n    height: 400px;\r\n    padding:0;\r\n    margin-right:700px;\r\n    line-height: 1.5;\r\n    text-align: left ;\r\n    font-family: 'Century Gothic', serif;\r\n}\r\n\r\n.container1 {\r\n    display: flex;\r\n    width: 100%;\r\n    padding: 4% 2%;\r\n    box-sizing: border-box;\r\n    height: 100vh;\r\n  }\r\n  \r\n  .box1 {\r\n    flex: 1;\r\n    overflow: hidden;\r\n    transition: .5s;\r\n    margin: 0 2%;\r\n    box-shadow: 0 20px 30px rgba(0,0,0,.1);\r\n    line-height: 0;\r\n  }\r\n  \r\n  .box1 > img {\r\n    width: 200%;\r\n    height: calc(100% - 10vh);\r\n    object-fit: cover; \r\n    transition: .5s;\r\n  }\r\n  \r\n  .box1 > span {\r\n    font-size: 3.8vh;\r\n    display: block;\r\n    text-align: center;\r\n    height: 10vh;\r\n    line-height: 2.6;\r\n  }\r\n  \r\n  .box1:hover { flex: 1 1 50%; }\r\n  .box1:hover > img {\r\n    width: 100%;\r\n    height: 100%;\r\n  }"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

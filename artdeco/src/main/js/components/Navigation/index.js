@@ -6,9 +6,9 @@ export default function Navigation () {
     return (
         <nav className="navigation nav-wrapper">
 
-            <a href="#" className="navigation__logo brand-logo left">
+            <span className="navigation__logo brand-logo left">
                 <Link to={'/'}>Art Deco</Link>
-            </a>
+            </span>
 
             <ul className="navigation__list right">
                 <li>
