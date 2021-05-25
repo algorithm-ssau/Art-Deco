@@ -17,7 +17,6 @@ export class PaintPage extends Component {
         return (
             <>
                 <DefaultHeader text="Краски"/>
-
                 <div className="container">
                     <div className="text">
                         <p>Людям, которые любят обновления, стоит обратить внимание на краски.
@@ -34,11 +33,6 @@ export class PaintPage extends Component {
                             уборки и не привлечет внимание Вашего домашнего питомца. А еще со временем она не
                             теряет яркости! Не стоит забывать, что в различных помещениях возникает необходимость
                             и в различном составе красок, мы с удовольствием поможем подобрать идеальный состав.</p>
-                    </div>
-
-
-                    <div className="container">
-                        <h1>Краски</h1>
                     </div>
 
                     <ProductList products={this.products}/>

@@ -27,16 +27,40 @@ public class UploadData implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
-        /*repository.deleteAll();
-
+        //repository.deleteAll();
+/*
         // save some products
         try {
-            repository.save(new Product(ProductType.valueOf("PLASTER"), "Венецианская штукатурка", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/plaster1.jpg"))), "image/jpeg"));
-            repository.save(new Product(ProductType.valueOf("PLASTER"), "Мраморный эффект", 130.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/plaster1.png"))), "image/png"));
-            repository.save(new Product(ProductType.valueOf("FRESCO"), "Геометрический узор", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/parallax1.jpg"))), "image/jpeg"));
-            repository.save(new Product(ProductType.valueOf("DECOR"), "Балясина", 200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/decor1.jpg"))), "image/jpeg"));
-            repository.save(new Product(ProductType.valueOf("PAINT"), "Красная краска", 100.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/decor2.jpg"))), "image/jpeg"));
-            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "С животными", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("./src/main/resources/static/img/parallax2.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Венецианская штукатурка", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\venec.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Под старину", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\starina.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Простой узор", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\casual.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Крупные мазки", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\krup_maz.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Под мрамор", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\mramor.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PLASTER"), "Под мрамор", 150.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\штукатурка\\mramor2.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Цветочный узор", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\flowers.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Геометрический узор", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\geom.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Карта", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\karty.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Космос", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\kosmos.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Пейзаж", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\peyzaj.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("FRESCO"), "Тропики", 1200.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\фрески\\tropiki.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Колонна", 32000.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\column.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Камин", 25300.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\kamin.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Карниз", 650.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\karniz.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Плинтус", 1050.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\plintus.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Розетка", 580.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\rosetka.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("DECOR"), "Угловой элемент", 580.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\декор\\ugl_elem.png"))), "image/png"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Красная краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\red.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Желтая краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\yellow.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Зеленая краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\green.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Синяя краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\blue.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Оранжевая краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\orange.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("PAINT"), "Розовая краска", 500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\краска\\pink.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Геометрический узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\geom.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Цветочный узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\flowers.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Геометрический узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\geom2.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Классический узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\lines.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Природный узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\nature.jpg"))), "image/jpeg"));
+            repository.save(new Product(ProductType.valueOf("WALLPAPER"), "Природный узор", 1500.0, new Binary(BsonBinarySubType.BINARY, Files.readAllBytes(Path.of("C:\\Users\\Irina\\Desktop\\Ира\\сгау\\эвм\\сайт\\обои\\trees.jpg"))), "image/jpeg"));
         } catch (IOException e) {
             e.printStackTrace();
         }*/

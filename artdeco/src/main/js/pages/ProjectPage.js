@@ -10,14 +10,9 @@ export const ProjectPage = () => {
     return (
         <>
             <DefaultHeader text="Наши проекты" />
-
-            <div>
-                <h1>Наши проекты</h1>
-            </div>
             <div className="container1">
                 <div className="box1">
-                    <img alt src="img/1/1.jpg"/>
-
+                        <img alt src="img/1/1.jpg"/>
                 </div>
                 <div className="box1">
                     <img alt src="img/1/4.jpg"/>
