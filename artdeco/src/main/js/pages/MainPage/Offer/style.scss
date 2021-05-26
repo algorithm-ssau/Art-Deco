@@ -1,0 +1,30 @@
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: #3b3b3e;
+  height: 70vh;
+
+  .wrapper {
+    padding: 70px 50px;
+
+    .offer__title {
+      text-align: center;
+      margin: 0 0 50px;
+      padding: 0;
+    }
+    .offer__list {
+      margin: 0;
+      padding: 0;
+
+      .offer__item {
+        font-size: 150%;
+        font-weight: 300;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
