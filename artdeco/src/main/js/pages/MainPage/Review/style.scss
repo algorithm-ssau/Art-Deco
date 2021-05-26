@@ -1,0 +1,89 @@
+%flex-props {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+%center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%border {
+  position: absolute;
+  left: -1px;
+  content: "";
+  height: 2px;
+  width: 30%;
+  background-color: white;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  background: url("../../../../resources/static/img/main/feedback1.jpg") no-repeat fixed center center / cover;
+
+  .review__title {
+    @extend %flex-props;
+    @extend %center;
+
+    height: 100%;
+    background-color: rgba(#919e9d, 60%);
+
+    h2 {
+      display: inline-block;
+      font-family: 'Forum', 'Arial', sans-serif;
+      font-size: 700%;
+      text-transform: uppercase;
+      width: 80%;
+    }
+  }
+  .review__content {
+    @extend %flex-props;
+    @extend %center;
+
+    height: 100%;
+    background-color: rgba(#010101, 60%);
+    font-family: 'Montserrat', 'Arial', sans-serif;
+
+    .review__about {
+      width: 90%;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 180%;
+      font-weight: 200;
+    }
+    .review__item {
+      display: inline-block;
+      position: relative;
+      border-left: 3px solid white;
+      margin: 0 50px;
+
+      &:before {
+        @extend %border;
+        top: 0;
+      }
+      &:after {
+        @extend %border;
+        bottom: 0;
+      }
+
+      blockquote {
+        border: none;
+
+        cite {
+          display: block;
+          margin-top: 30px;
+          font-style: normal;
+          text-transform: uppercase;
+
+          &:before {
+            content: "— ";
+          }
+        }
+      }
+    }
+  }
+}

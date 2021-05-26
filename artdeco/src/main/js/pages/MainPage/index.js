@@ -7,6 +7,7 @@ import Feature1 from "./Feature1";
 import Feature3 from "./Feature3";
 import Feature2 from "./Feature2";
 import FeatureTest from './FeatureTest';
+import Review from './Review';
 import Footer from "../../components/Footer";
 
 import '../../../resources/static/style.css';
@@ -18,13 +19,12 @@ export const MainPage = () => {
             <MainHeader/>
 
             <main>
-                <Description />
+                {/*<Description />*/}
                 <Description2 />
 
                 <Feature1 />
                 <Feature2 />
                 <Feature3 />
-                <FeatureTest />
 
                 <section className="offer">
                     <h3>Мы предлагаем:</h3>
@@ -38,23 +38,25 @@ export const MainPage = () => {
                         <li>Поддержка проекта вплоть до его завершения</li>
                     </ul>
                 </section>
-                <section className="reviews">
-                    <div className="reviews-title">
-                        <h2>Отзывы наших клиентов</h2>
-                    </div>
-                    <div className="reviews-content">
-                        <div className="reviews-about">
-                            <p>За нашими плечами сотни крупных объектов
-                                строительства и тысячи розничных клиентов.</p>
-                        </div>
-                        <div className="reviews-item">
-                            <blockquote>
-                                Текст отзыва
-                                <cite>Автор</cite>
-                            </blockquote>
-                        </div>
-                    </div>
-                </section>
+
+                <Review />
+                {/*<section className="reviews">*/}
+                {/*    <div className="reviews-title">*/}
+                {/*        <h2>Отзывы наших клиентов</h2>*/}
+                {/*    </div>*/}
+                {/*    <div className="reviews-content">*/}
+                {/*        <div className="reviews-about">*/}
+                {/*            <p>За нашими плечами сотни крупных объектов*/}
+                {/*                строительства и тысячи розничных клиентов.</p>*/}
+                {/*        </div>*/}
+                {/*        <div className="reviews-item">*/}
+                {/*            <blockquote>*/}
+                {/*                Текст отзыва*/}
+                {/*                <cite>Автор</cite>*/}
+                {/*            </blockquote>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</section>*/}
             </main>
 
             <Footer/>
